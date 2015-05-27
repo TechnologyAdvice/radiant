@@ -1,0 +1,22 @@
+{
+  "name": "semantic-unity",
+  "version": "1.0.0",
+  "description": "A test ride of Semantic-UI as a potential candidate for Unity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TechnologyAdvice/semantic-unity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechnologyAdvice/semantic-unity/issues"
+  },
+  "homepage": "https://github.com/TechnologyAdvice/semantic-unity",
+  "dependencies": {
+    "semantic-ui-less": "^1.12.3"
+  }
+}
