@@ -1,6 +1,5 @@
 .idea
 .DS_STORE
 node_modules/
-semantic-unity/src/**/site/
 theme.config
 semantic.json
