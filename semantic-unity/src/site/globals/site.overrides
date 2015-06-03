@@ -1,8 +1,7 @@
 /*******************************
          Site Overrides
 *******************************/
-.main.menu .container {
-  position: relative;
-  width: 1000px;
-  margin: 0em auto;
+.ui.bottom.attached {
+  position: absolute;
+  bottom: 0;
 }
