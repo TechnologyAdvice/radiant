@@ -1,3 +1,13 @@
 /*******************************
          Site Overrides
 *******************************/
+.ui.thin.sidebar {
+  background: @darkGrey;
+  border-right: 3px solid #1b1b1b;
+  position: relative;
+  min-width: 55px;
+}
+.sidebar-block {
+  height: 100px;
+  width: 100%;
+}
