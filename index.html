@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="semantic-unity/dist/semantic.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
-<body>
+<body class="dashboard example">
   <div class="ui fixed inverted main menu blue">
     <div class="container ui stackable two column grid">
       <div class="six wide column">
@@ -65,7 +65,7 @@
     <a class="item button" >
       <i class="space shuttle icon"></i>
     </a>
-    <div class="sidebar-block"></div>
+    <div class="sidebar block"></div>
     <a class="active blue item" data-content="Dashboard" data-position="right center" data-variation="inverted">
       <i class="dashboard icon"></i>
     </a>
@@ -90,6 +90,7 @@
   <div class="main dashboard container">
     <div class="ui stackable three column grid">
       <div class="eight wide column">
+        <div class="main scrollY">
         <div class="ui segment">
           <div class="ui vertical segment">
             <div class="ui two column grid">
@@ -136,11 +137,72 @@
             </div>
           </div>
           <div class="ui vertical segment">
-            <p></p>
+            <p class="upcase float left">Interaction History</p>
+            <p class="float right"><a href="#" class="show add interaction modal">+ Add Log</a></p>
+            <div class="clear both"></div>
+            <table class="ui unstackable lead interaction table">
+              <thead>
+                <tr>
+                  <th>Event</th>
+                  <th>Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="center aligned">
+                  <td>Initial Call - Discussed CMS solutions</td>
+                  <td>5/15/2015</td>
+                </tr>
+                <tr>
+                  <td>Offered four CMS options, discussed Act On in detail</td>
+                  <td>5/18/2015</td>
+                </tr>
+                <tr>
+                  <td>Connected with Act On and Pardot - scheduled follow up</td>
+                  <td>5/20/2015</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="ui vertical segment">
+            <p class="upcase float left">Project Log</p>
+            <p class="float right"><a href="#" class="show add project modal">+ Add Log</a></p>
+            <div class="clear both"></div>
+            <table class="ui unstackable lead interaction table">
+              <thead>
+                <tr>
+                  <th>Status</th>
+                  <th>Date</th>
+                  <th>Advisor</th>
+                  <th>Edit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="center aligned">
+                  <td>Sent</td>
+                  <td>5/15/2015</td>
+                  <td>Ferris Bueller</td>
+                  <td class="align center"><i class="edit icon"></i></td>
+                </tr>
+                <tr>
+                  <td>Sent</td>
+                  <td>5/15/2015</td>
+                  <td>Ferris Bueller</td>
+                  <td class="align center"><i class="edit icon"></i></td>
+                </tr>
+                <tr>
+                  <td>Sent</td>
+                  <td>5/15/2015</td>
+                  <td>Ferris Bueller</td>
+                  <td class="align center"><i class="edit icon"></i></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
+      </div>
       <div class="four wide column">
+        <div class="main scrollY">
         <div class="ui segment">
           <div class="ui vertical segment">
             <p class="upcase">Product Selection Tool</p>
@@ -202,7 +264,7 @@
                 </div>
               </div>
             </div>
-            <div class="ui vertical segment item">
+            <div class="ui vertical segment item ">
               <div class="ui very small image">
                 <img src="./images/wireframe/square-image.png">
               </div>
@@ -219,7 +281,8 @@
           </div>
         </div>
       </div>
-      <div class="four wide column">
+      </div>
+      <div class="main four wide column scrollY">
         <div class="ui segment">
           <div class="ui vertical segment">
            <p class="upcase">Incoming Leads</p>
@@ -243,6 +306,42 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="ui project log modal">
+    <i class="close icon"></i>
+    <div class="header">
+      Add Project Log
+    </div>
+    <div class="content">
+      <div class="image">
+        An image can appear on left or an icon
+      </div>
+      <div class="description">
+        A description can appear on the right
+      </div>
+    </div>
+    <div class="actions">
+      <div class="ui button">Cancel</div>
+      <div class="ui button">OK</div>
+    </div>
+  </div>
+    <div class="ui interaction modal">
+    <i class="close icon"></i>
+    <div class="header">
+      Add Interaction
+    </div>
+    <div class="content">
+      <div class="image">
+        An image can appear on left or an icon
+      </div>
+      <div class="description">
+        A description can appear on the right
+      </div>
+    </div>
+    <div class="actions">
+      <div class="ui button">Cancel</div>
+      <div class="ui button">OK</div>
     </div>
   </div>
   <script src="./semantic-unity/dist/semantic.min.js"></script>
