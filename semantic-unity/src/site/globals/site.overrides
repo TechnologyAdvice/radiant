@@ -7,7 +7,7 @@
 }
 .ui.bottom.attached {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
 }
 .upcase {
   text-transform: uppercase;
@@ -84,9 +84,14 @@
   width: 100%;
   margin-top: 15px;
 }
-.ui.items .lead.status .ui.button {
-  padding: 6px 1.5em;
+.ui.items .lead.status .ui.button,
+.ui.items .lead.status .center {
+  padding: 6px 0;
   border-radius: 0;
+  width: 32%;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
 }
 
 /* Template Overrides */
