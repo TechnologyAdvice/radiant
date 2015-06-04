@@ -26,6 +26,9 @@
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
+.ui.menu .blue.item {
+  position: relative;
+}
 .ui.inverted.menu .blue.item:hover {
   background: rgba(0,0,0,.3);
   border-left: 3px solid #4a96c4;

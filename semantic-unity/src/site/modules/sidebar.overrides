@@ -6,7 +6,7 @@
   border-right: 3px solid #1b1b1b;
   min-width: 55px;
 }
-.sidebar-block {
-  height: 100px;
+.sidebar.block {
+  height: 200px;
   width: 100%;
 }
