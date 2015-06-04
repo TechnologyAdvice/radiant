@@ -99,3 +99,6 @@
 .main.scrollY {
   max-height: 973px;
 }
+.secondary.scrollY {
+  max-height: 446px;
+}
