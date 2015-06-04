@@ -19,10 +19,18 @@
   float: left !important;
 }
 .ui.very.small.image,
-.ui.small.images .image,
-.ui.small.images img,
-.ui.small.images svg {
+.ui.very.small.images .image,
+.ui.very.small.images img,
+.ui.very.small.images svg {
   width: 100px;
+  height: auto;
+  font-size: .9375rem;
+}
+.ui.extremely.small.image,
+.ui.extremely.small.images .image,
+.ui.extremely.small.images img,
+.ui.extremely.small.images svg {
+  width: 55px;
   height: auto;
   font-size: .9375rem;
 }
@@ -53,6 +61,33 @@
 .ui.lead.table {
   margin: 0 0 1em;
 }
+.incoming.leads .item .content .lead {
+  margin: 0;
+  font-weight: 600;
+}
+.incoming.leads .item .content .lead.company {
+  font-weight: 300;
+}
+.ui.items>.lead.item>.image {
+  display: block;
+  float: left;
+  width: 20%;
+}
+.ui.items>.lead.item>.image+.content {
+  display: block;
+  float: right;
+  width: 75%;
+  padding-left: 0;
+}
+.ui.items>.lead.item>.lead.status {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+.ui.items .lead.status .ui.button {
+  padding: 6px 1.5em;
+  border-radius: 0;
+}
 
 /* Template Overrides */
 .main.dashboard.container {
@@ -62,5 +97,5 @@
   padding: 125px 15px 0 70px;
 }
 .main.scrollY {
-  max-height: 1010px;
+  max-height: 973px;
 }

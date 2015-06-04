@@ -53,6 +53,7 @@
 @grey             : #E3E4E5;
 @orange           : #DDA33C;
 @red              : #D85248;
+@yellow           : #DBC827;
 
 /*---  Light Colors  ---*/
 @lightBlue        : #66BBDD;
