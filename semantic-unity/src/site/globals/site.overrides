@@ -35,6 +35,12 @@
 .lead.company.name {
   font-weight: 400;
 }
+.about.lead .ui.items {
+  margin: 0;
+}
+.about.lead .ui.list .item a {
+  color: #4A96C4 !important;
+}
 
 /* Template Overrides */
 .main.dashboard.container {
