@@ -4,3 +4,4 @@ node_modules/
 dist/
 theme.config
 semantic.json
+bower_components/
