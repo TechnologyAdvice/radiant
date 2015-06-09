@@ -1,6 +1,10 @@
 .idea
 .DS_STORE
 node_modules/
+<<<<<<< HEAD
 semantic-unity/src/**/site/
 theme.config
 semantic.json
+=======
+bower_components/
+>>>>>>> 61677639c7908ab99e003d16e65fe5bd17dcb3c6
