@@ -1,0 +1,78 @@
+/*******************************
+     User Global Variables
+*******************************/
+/*-------------------
+     Fonts
+--------------------*/
+
+@headerFont        : 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@googleFontFamily  : 'Roboto:400,300,300italic,400italic,500,500italic,700,700italic|Open+Sans:300italic,400italic,600italic,400,300,600';
+
+/*-------------------
+    Base Sizes
+--------------------*/
+
+@emSize      : 16px;
+@fontSize    : 16px;
+
+/*--------------
+      Page
+---------------*/
+
+@pageBackground      : #EBECED;
+@lineHeight          : 1.45;
+@textColor           : #444444;
+
+/*--------------
+  Page Heading
+---------------*/
+
+@headerLineHeight : 1.33em;
+@headerFontWeight : 600;
+
+@h1               : 30px;
+@h2               : 22px;
+@h3               : 18px;
+@h4               : 16px;
+@h5               : 15px;
+
+/*--------------
+   Paragraphs
+---------------*/
+
+@paragraphLineHeight: @lineHeight;
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@blue             : #4A96C4;
+@green            : #4CC17B;
+@grey             : #E3E4E5;
+@orange           : #DDA33C;
+@red              : #D85248;
+@yellow           : #DBC827;
+
+/*---  Light Colors  ---*/
+@lightBlue        : #66BBDD;
+
+/*---   Neutrals  ---*/
+@darkGrey         : #444444;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor        : @blue;
+@secondaryColor      : @grey;
+
+@lightSecondaryColor : @white;
+
+/*-------------------
+       Links
+--------------------*/
+
+@linkColor           : #4A96C4;
+@linkHoverColor      : darken(@linkColor, 10);

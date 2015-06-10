@@ -1,0 +1,10 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.yellow.button,
+.ui.yellow.buttons .button {
+  background-color: @yellow;
+  color: @white;
+  text-shadow: none;
+  background-image: none;
+}
