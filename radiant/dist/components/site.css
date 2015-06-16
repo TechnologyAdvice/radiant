@@ -163,6 +163,12 @@ input::selection {
 .clear.both {
   clear: both;
 }
+.bold {
+  font-weight: 600;
+}
+.light {
+  font-weight: 300;
+}
 .ui.bottom.attached {
   position: absolute;
   bottom: 20px;
