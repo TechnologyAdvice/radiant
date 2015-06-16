@@ -1,5 +1,5 @@
 {
-  "base": "semantic-unity",
+  "base": "radiant",
   "paths": {
     "source": {
       "config": "src/theme.config",

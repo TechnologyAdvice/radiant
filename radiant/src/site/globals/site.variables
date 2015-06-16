@@ -61,6 +61,10 @@
 /*---   Neutrals  ---*/
 @darkGrey         : #444444;
 
+/*---   Typography  ---*/
+@headerFontColor  : #282828;
+@bodyFontColor    : #444444;
+
 /*-------------------
     Brand Colors
 --------------------*/
