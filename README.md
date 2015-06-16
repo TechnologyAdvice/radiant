@@ -1,4 +1,4 @@
-# semantic-unity
+# Radiant
 A theme build out of Semantic-UI named Radiant.
 
 Install
