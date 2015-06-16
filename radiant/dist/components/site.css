@@ -287,9 +287,25 @@ input::selection {
   background-color: #ffffff;
   border: 1px solid #ebeced;
 }
+.color.green {
+  background-color: #4cc17b;
+}
+.color.red {
+  background-color: #d85248;
+}
+.color.orange {
+  background-color: #dda33c;
+}
+.color.header {
+  background-color: #282828;
+}
+.color.body {
+  background-color: #444444;
+}
 
 /* Code */
 .style.guide code {
+  font-size: 12px;
   text-align: center;
   background-color: #ebeced;
   padding: 3px;

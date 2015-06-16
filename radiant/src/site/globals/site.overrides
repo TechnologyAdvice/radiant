@@ -128,8 +128,24 @@
   background-color: @white;
   border: 1px solid @pageBackground;
 }
+.color.green {
+  background-color: @green;
+}
+.color.red {
+  background-color: @red;
+}
+.color.orange {
+  background-color: @orange;
+}
+.color.header {
+  background-color: @headerFontColor;
+}
+.color.body {
+  background-color: @bodyFontColor;
+}
 /* Code */
 .style.guide code {
+  font-size: 12px;
   text-align: center;
   background-color: @pageBackground;
   padding: 3px;
