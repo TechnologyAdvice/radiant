@@ -667,206 +667,6 @@ input::selection {
 /*******************************
          Site Overrides
 *******************************/
-
-/* General Styles */
-
-.clear.both {
-  clear: both;
-}
-
-.bold {
-  font-weight: 600;
-}
-
-.light {
-  font-weight: 300;
-}
-
-.ui.bottom.attached {
-  position: absolute;
-  bottom: 20px;
-}
-
-.upcase {
-  text-transform: uppercase;
-}
-
-.float.right {
-  float: right !important;
-}
-
-.float.left {
-  float: left !important;
-}
-
-.ui.very.small.image,
-.ui.very.small.images .image,
-.ui.very.small.images img,
-.ui.very.small.images svg {
-  width: 100px;
-  height: auto;
-  font-size: .9375rem;
-}
-
-.ui.extremely.small.image,
-.ui.extremely.small.images .image,
-.ui.extremely.small.images img,
-.ui.extremely.small.images svg {
-  width: 55px;
-  height: auto;
-  font-size: .9375rem;
-}
-
-.scrollY {
-  overflow-y: scroll;
-}
-
-/* Lead Specific Styles */
-
-.lead.information {
-  padding: 10px 20px;
-}
-
-.lead.name {
-  margin-bottom: 0;
-}
-
-.lead.company {
-  margin: 0;
-  font-weight: 300;
-}
-
-.lead.company.name {
-  font-weight: 400;
-}
-
-.about.lead .ui.items {
-  margin: 0;
-}
-
-.about.lead .ui.list .item a {
-  color: #4A96C4 !important;
-}
-
-.ui.lead.table {
-  margin: 0 0 1em;
-}
-
-.incoming.leads .item .content .lead {
-  margin: 0;
-  font-weight: 600;
-}
-
-.incoming.leads .item .content .lead.company {
-  font-weight: 300;
-}
-
-.ui.items > .lead.item > .image {
-  display: block;
-  float: left;
-  width: 20%;
-}
-
-.ui.items > .lead.item > .image + .content {
-  display: block;
-  float: right;
-  width: 75%;
-  padding-left: 0;
-}
-
-.ui.items > .lead.item > .lead.status {
-  display: block;
-  width: 100%;
-  margin-top: 15px;
-}
-
-.ui.items .lead.status .ui.button,
-.ui.items .lead.status .center {
-  padding: 6px 0;
-  border-radius: 0;
-  width: 32%;
-  display: inline-block;
-  text-align: center;
-  font-weight: 600;
-}
-
-/* Template Overrides */
-
-.main.dashboard.container {
-  position: relative;
-  width: 100%;
-  margin: 0 auto 55px;
-  padding: 125px 15px 0 70px;
-}
-
-.main.scrollY {
-  max-height: 973px;
-}
-
-.secondary.scrollY {
-  max-height: 446px;
-}
-
-/* Color Palette */
-
-.color.block {
-  width: 100%;
-  height: 100px;
-}
-
-.color.blue {
-  background-color: #4a96c4;
-}
-
-.color.light.blue {
-  background-color: #66bbdd;
-}
-
-.color.dark.grey {
-  background-color: #444444;
-}
-
-.color.light.grey {
-  background-color: #e3e4e5;
-}
-
-.color.white {
-  background-color: #ffffff;
-  border: 1px solid #ebeced;
-}
-
-.color.green {
-  background-color: #4cc17b;
-}
-
-.color.red {
-  background-color: #d85248;
-}
-
-.color.orange {
-  background-color: #dda33c;
-}
-
-.color.header {
-  background-color: #282828;
-}
-
-.color.body {
-  background-color: #444444;
-}
-
-/* Code */
-
-.style.guide code {
-  font-size: 12px;
-  text-align: center;
-  background-color: #ebeced;
-  padding: 3px;
-  margin: 12px 0;
-  display: block;
-  border: 1px solid #e3e4e5;
-  border-radius: 2px;
-}
 /*!
  * # Semantic UI x.x - Button
  * http://github.com/semantic-org/semantic-ui/
@@ -3588,14 +3388,6 @@ input::selection {
 /*******************************
          Site Overrides
 *******************************/
-
-.ui.yellow.button,
-.ui.yellow.buttons .button {
-  background-color: #dbc827;
-  color: #ffffff;
-  text-shadow: none;
-  background-image: none;
-}
 /*!
  * # Semantic UI x.x - Divider
  * http://github.com/semantic-org/semantic-ui/
@@ -13251,20 +13043,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
-
-.ui.vertical.segment.heading {
-  width: 100%;
-  padding: 10px 0;
-}
-
-.ui.vertical.segment.heading p,
-.ui.vertical.segment.heading h1,
-.ui.vertical.segment.heading h2,
-.ui.vertical.segment.heading h3,
-.ui.vertical.segment.heading h4,
-.ui.vertical.segment.heading h5 {
-  margin: 0;
-}
 /*!
  * # Semantic UI x.x - Step
  * http://github.com/semantic-org/semantic-ui/
@@ -18757,61 +18535,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Site Overrides
 *******************************/
-
-.main.menu .container {
-  position: relative;
-  width: 100%;
-  padding: 0 15px 0 0;
-  margin: 0em auto;
-  left: 55px;
-}
-
-.main.menu .field {
-  padding-top: 15px;
-}
-
-.main.menu .toggle.checkbox label {
-  color: #ffffff;
-  font-weight: 600;
-}
-
-.ui.inverted.menu {
-  background: #444444;
-}
-
-.ui.menu .blue.active.item {
-  background: #1f1f1f;
-  color: #fff!important;
-  border-left: 3px solid #4a96c4;
-  position: relative;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-
-.ui.menu .blue.item {
-  position: relative;
-}
-
-.ui.inverted.menu .blue.item:hover {
-  background: rgba(0, 0, 0, 0.3);
-  border-left: 3px solid #4a96c4;
-}
-
-.main.blue.menu .ui.statistic > .value {
-  font-size: 30px;
-  color: #ffffff;
-}
-
-.main.blue.menu .ui.statistic > .label {
-  text-align: right;
-}
-
-.ui.thin.sidebar .bottom .item i.icon {
-  display: block;
-  float: none!important;
-  margin: 0 auto!important;
-  opacity: 1;
-}
 /*!
  * # Semantic UI x.x - Message
  * http://github.com/semantic-org/semantic-ui/
@@ -28317,17 +28040,6 @@ html.ios {
 /*******************************
          Site Overrides
 *******************************/
-
-.ui.thin.sidebar {
-  background: #444444;
-  border-right: 3px solid #1b1b1b;
-  min-width: 55px;
-}
-
-.sidebar.block {
-  height: 200px;
-  width: 100%;
-}
 /*!
  * # Semantic UI x.x - Sticky
  * http://github.com/semantic-org/semantic-ui/

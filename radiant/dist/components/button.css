@@ -2389,10 +2389,3 @@
          Site Overrides
 *******************************/
 
-.ui.yellow.button,
-.ui.yellow.buttons .button {
-  background-color: #dbc827;
-  color: #ffffff;
-  text-shadow: none;
-  background-image: none;
-}
