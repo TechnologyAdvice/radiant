@@ -633,15 +633,3 @@
          Site Overrides
 *******************************/
 
-.ui.vertical.segment.heading {
-  width: 100%;
-  padding: 10px 0;
-}
-.ui.vertical.segment.heading p,
-.ui.vertical.segment.heading h1,
-.ui.vertical.segment.heading h2,
-.ui.vertical.segment.heading h3,
-.ui.vertical.segment.heading h4,
-.ui.vertical.segment.heading h5 {
-  margin: 0;
-}
