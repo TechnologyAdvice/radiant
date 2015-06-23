@@ -5,7 +5,8 @@
       "config": "src/theme.config",
       "definitions": "src/definitions/",
       "site": "src/site/",
-      "themes": "src/themes/"
+      "themes": "src/themes/",
+      "docs": "src/docs"
     },
     "output": {
       "packaged": "dist/",
