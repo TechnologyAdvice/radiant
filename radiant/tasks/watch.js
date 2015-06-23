@@ -74,7 +74,8 @@ module.exports = function(callback) {
       source.config,
       source.definitions   + '/**/*.less',
       source.site          + '/**/*.{overrides,variables}',
-      source.themes        + '/**/*.{overrides,variables}'
+      source.themes        + '/**/*.{overrides,variables}',
+      source.docs          + '/**/*.less'
     ], function(file) {
 
       var
@@ -85,6 +86,7 @@ module.exports = function(callback) {
         uncompressedStream,
 
         isDefinition,
+        isDocsOverrides,
         isPackagedTheme,
         isSiteTheme,
         isConfig
@@ -104,6 +106,7 @@ module.exports = function(callback) {
       isPackagedTheme = (file.path.indexOf(source.themes) !== -1);
       isSiteTheme     = (file.path.indexOf(source.site) !== -1);
       isDefinition    = (file.path.indexOf(source.definitions) !== -1);
+      isDocsOverrides = (file.path.indexOf(source.docs) !== -1);
 
       if(isConfig) {
         console.info('Rebuilding all UI');
