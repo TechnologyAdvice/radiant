@@ -4,7 +4,7 @@
 
 /* Paths used for "serve-docs" and "build-docs" tasks */
 module.exports = {
-  base: '',
+  base: 'ui',
   paths: {
     source: {
       config      : 'src/theme.config',

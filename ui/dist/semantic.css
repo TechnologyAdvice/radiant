@@ -16151,19 +16151,6 @@ ol.ui.horizontal.list li:before,
   padding-bottom: 1rem;
 }
 
-.ui.grid > .grey.row,
-.ui.grid > .grey.column,
-.ui.grid > .row > .grey.column {
-  background-color: #e3e4e5 !important;
-}
-
-.ui.grid > .row > .grey.column {
-  margin-top: -1rem;
-  margin-bottom: -1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .ui.grid > .blue.row,
 .ui.grid > .blue.column,
 .ui.grid > .row > .blue.column {
