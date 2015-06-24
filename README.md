@@ -5,14 +5,14 @@ Install
 ------
 ```
 npm i
-cd radiant
+cd ui
 gulp build
 ```
 Run `gulp` to watch files for changes
 
 Getting Started
 ------
-To customize and update the Radiant theme variables, add to or edit `./radiant/site/globals/site.variables`
+To customize and update the Radiant theme variables, add to or edit `./ui/site/globals/site.variables`
 
 Use all files ending in `.variables` to add or adjust existing UI Variables:
 ```less

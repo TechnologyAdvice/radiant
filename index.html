@@ -1,134 +1,116 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-      <meta charset="UTF-8">
-      <title>Radiant Style Guide</title>
-      <link rel="stylesheet" type="text/css" href="radiant/dist/semantic.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  </head>
-  <body class="style guide">
-    <div class="ui menu">
-      <div class="header item">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Radiant Style Guide</title>
+    <link rel="stylesheet" type="text/css" href="ui/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="docs/dist/doc-overrides.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body class="style guide">
+  <div class="ui menu">
+    <div class="header item">
         <i class="sun icon"></i> Radiant
-      </div>
-      <div class="right menu">
-        <div class="header item">
+    </div>
+    <div class="right menu">
+      <div class="header item">
           Design Elements
-        </div>
-        <a class="disabled item">
-          UI Stardust
-        </a>
-        <a class="disabled item">
-          JS Stardust
-        </a>
-        <a class="disabled item">
-          Utilities
-        </a>
       </div>
     </div>
-    <div class="ui stackable two column grid horizontally padded">
-      <div class="four wide column">
-        <div class="ui secondary vertical following fluid accordion menu">
-          <div class="item active">
-            <a class="active title"><b>Design Elements</b></a>
-            <div class="active content menu">
-              <a class="item active" href="#palette">Color Palette</a>
-              <a class="item transition visible" href="#typography" style="">Typography</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="twelve wide column">
-        <div class="main container ui segment">
-          <div id="palette" class="ui vertical segment">
-            <h2 class="blue">Color Palette</h2>
-            <h6>Primary Palette</h6>
-            <div class="ui stackable padded five column grid">
-              <div class="row">
-                <div class="blue center aligned column">
-                  <pre>@blue</pre>
-                </div>
-                <div class="light blue active header center aligned column">
-                  <pre>@lightBlue</pre>
-                </div>
-                <div class="dark grey center aligned column">
-                  <pre>@darkGrey</pre>
-                </div>
-                <div class="grey center aligned column">
-                  <pre>@grey</pre>
-                </div>
-                <div class="center aligned column">
-                  <pre>@white</pre>
-                </div>
-              </div>
-            </div>
-            <h6>Status Palette</h6>
-            <div class="ui stackable padded five column grid">
-              <div class="row">
-                <div class="green center aligned column">
-                  <pre>@green</pre>
-                </div>
-                <div class="red center aligned column">
-                  <pre>@red</pre>
-                </div>
-                <div class="orange center aligned column">
-                  <pre>@orange</pre>
-                </div>
-              </div>
-            </div>
-            <h6>Secondary Palette</h6>
-            <div class="ui stackable padded five column grid">
-              <div class="row">
-                <div class="teal center aligned column">
-                  <pre>@teal</pre>
-                </div>
-                <div class="pink active header center aligned column">
-                  <pre>@pink</pre>
-                </div>
-                <div class="purple center aligned column">
-                  <pre>@purple</pre>
-                </div>
-                <div class="yellow center aligned column">
-                  <pre>@yellow</pre>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="typography" class="ui vertical segment">
-            <h2 class="blue">Typography</h2>
-            <h1>We are an impossibility in an impossible universe.</h1>
-            <div class="ui divider"></div>
-            <h2>We are an impossibility in an impossible universe.</h2>
-            <div class="ui divider"></div>
-            <h3>We are an impossibility in an impossible universe.</h3>
-            <div class="ui divider"></div>
-            <h4>We are an impossibility in an impossible universe.</h4>
-            <div class="ui divider"></div>
-            <h5>We are an impossibility in an impossible universe.</h5>
-            <div class="ui divider"></div>
-            <h6>We are an impossibility in an impossible universe.</h6>
-            <div class="ui divider"></div>
-            <h6>Base Copy</h6>
-            <p>The role played by time at the beginning of the universe is,
-              I believe, the final key to removing the need for a Grand Designer,
-              and revealing how the universe created itself. ... Time itself must come
-              to a stop. You can’t get to a time before the big bang, because there
-              was no time before the big bang. We have finally found something that
-              does not have a cause because there was no time for a cause to exist
-              in. For me this means there is no possibility of a creator because there
-              is no time for a creator to have existed. Since time itself began
-              at the moment of the Big Bang, it was an event that could not have
-              been caused or created by anyone or anything. ... So when people ask me
-              if a god created the universe, I tell them the question itself makes
-              no sense. Time didn't exist before the Big Bang, so there is no time for
-              God to make the universe in. It's like asking for directions to the edge
-              of the Earth. The Earth is a sphere. It does not have an edge, so looking
-              for it is a futile exercise.</p>
-            <p>― Stephen Hawking</p>
+  </div>
+  <div class="ui stackable two column grid horizontally padded">
+    <div class="four wide column">
+      <div class="ui secondary vertical following fluid accordion menu">
+        <div class="item active">
+          <a class="active title"><b>Design Elements</b></a>
+          <div class="active content menu">
+            <a class="item active" href="#palette">Color Palette</a>
+            <a class="item transition visible" href="#typography" style="">Typography</a>
           </div>
         </div>
       </div>
     </div>
-    <script src="./radiant/dist/semantic.min.js"></script>
-  </body>
+    <div class="twelve wide column">
+      <div class="ui segment">
+        <div id="palette" class="ui vertical segment">
+          <h1 class="ui dividing header">Color Palette</h1>
+          <h3>Brand Colors</h3>
+          <div class="ui primary button">
+            @primaryColor
+          </div>
+          <div class="ui secondary button">
+            @secondaryColor
+          </div>
+          <div class="ui divider"></div>
+          <h3>Primary Palette</h3>
+          <div class="ui stackable padded five column grid">
+            <div class="row">
+              <div class="blue center aligned column">
+                <pre>@blue</pre>
+              </div>
+              <div class="light blue active header center aligned column">
+                <pre>@lightBlue</pre>
+              </div>
+              <div class="dark grey center aligned column">
+                <pre>@darkGrey</pre>
+              </div>
+              <div class="grey center aligned column">
+                <pre>@grey</pre>
+              </div>
+              <div class="center aligned column">
+                <pre>@white</pre>
+              </div>
+            </div>
+          </div>
+          <h3>Status Palette</h3>
+          <div class="ui stackable padded five column grid">
+            <div class="row">
+              <div class="green center aligned column">
+                <pre>@green</pre>
+              </div>
+              <div class="red center aligned column">
+                <pre>@red</pre>
+              </div>
+              <div class="orange center aligned column">
+                <pre>@orange</pre>
+              </div>
+            </div>
+          </div>
+          <h3>Secondary Palette</h3>
+          <div class="ui stackable padded five column grid">
+            <div class="row">
+              <div class="teal center aligned column">
+                <pre>@teal</pre>
+              </div>
+              <div class="pink active header center aligned column">
+                <pre>@pink</pre>
+              </div>
+              <div class="purple center aligned column">
+                <pre>@purple</pre>
+              </div>
+              <div class="yellow center aligned column">
+                <pre>@yellow</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui segment">
+        <div id="typography" class="ui vertical segment">
+          <h1 class="ui dividing header">Typography</h1>
+          <h1>h1 - We are an impossibility in an impossible universe.</h1>
+          <h2>h2 - We are an impossibility in an impossible universe.</h2>
+          <h3>h3 - We are an impossibility in an impossible universe.</h3>
+          <h4>h4 - We are an impossibility in an impossible universe.</h4>
+          <h5>h5 - We are an impossibility in an impossible universe.</h5>
+          <h6>h6 - We are an impossibility in an impossible universe.</h6>
+          <h2>Base Copy</h2>
+          <p>The stars we are given. The constellations we make. That is to say, stars exist in the cosmos, but constellations are the imaginary lines we draw between them, the readings we give the sky, the stories we tell.</p>
+          <p>― Rebecca Solnit</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./radiant/dist/semantic.min.js"></script>
+</body>
 </html>

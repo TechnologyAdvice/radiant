@@ -45,5 +45,9 @@
     "require-dot-file": "^0.4.0",
     "semantic-ui": "^1.12.3",
     "semantic-ui-less": "^1.12.3"
+  },
+  "devDependencies": {
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "run-sequence": "^1.1.1"
   }
 }
