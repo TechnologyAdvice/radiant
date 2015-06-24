@@ -31,3 +31,15 @@ gulp.task('watch-less', function () {
     paths.root + '**/*.less'
     ], ['less']);
 });
+
+//
+// Default
+//
+
+gulp.task('default', function(cb) {
+  runSequence(
+    'less',
+    'watch',
+    cb
+  );
+});
