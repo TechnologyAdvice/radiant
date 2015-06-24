@@ -18,13 +18,12 @@ gulp.task('less', function () {
 //
 
 gulp.task('watch', function(cb) {
-  console.log(paths.root);
   runSequence(
     [
       'watch-less'
     ],
     cb
-  )
+  );
 });
 
 gulp.task('watch-less', function () {
