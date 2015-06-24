@@ -4,7 +4,7 @@ var g = require('gulp-load-plugins')();
 
 var paths = {
   root: __dirname + '/',
-  dist: __dirname + '/../ui/dist/'
+  dist: __dirname + '/dist/'
 };
 
 gulp.task('less', function () {
