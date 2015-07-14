@@ -44,12 +44,12 @@ gulp.task('build-cached-less', function() {
     .pipe(getSemanticLessFile())    // for *.variables/overrides use the *.less
     .pipe(g.less())                 // compile to css
     .pipe(g.remember('less'))       // add back files that didn't change
-    .pipe(g.concat('ta.css'))       // concat all css files
+    .pipe(g.concat('radiant.css'))       // concat all css files
     .pipe(g.less())                 // move font @imports to the top
     .pipe(g.autoprefixer())         // autoprefix for browser support
     .pipe(gulp.dest(paths.dist))    // put in dist
     .pipe(g.minifyCss(minifyOpts))  // minify the build
-    .pipe(g.rename('ta.min.css'))   // rename
+    .pipe(g.rename('radiant.min.css'))   // rename
     .pipe(gulp.dest(paths.dist));   // put that in dist also
 });
 
@@ -60,9 +60,9 @@ gulp.task('build-all-less', function(cb) {
     .pipe(g.plumber())
     .pipe(g.less())
     .pipe(g.autoprefixer())
-    .pipe(g.concat('ta.css'))
+    .pipe(g.concat('radiant.css'))
     .pipe(gulp.dest(paths.dist))
     .pipe(g.minifyCss(minifyOpts))
-    .pipe(g.rename('ta.min.css'))
+    .pipe(g.rename('radiant.min.css'))
     .pipe(gulp.dest(paths.dist));
 });
