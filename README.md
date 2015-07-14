@@ -1,17 +1,15 @@
-# Radiant
+Radiant
+=======
 A theme build out of Semantic-UI named Radiant.
 
-Install
-------
-```
-npm i
-cd ui
-gulp build
-```
-Run `gulp` to watch files for changes
+## Development
+`npm start` - Installs dependencies and runs gulp.
 
-Getting Started
-------
+`gulp` - Sets up everything needed for development, see the task for details.  
+`gulp help` - List gulp commands and help.
+
+
+## Getting Started
 To customize and update the Radiant theme variables, add to or edit `./ui/site/globals/site.variables`
 
 Use all files ending in `.variables` to add or adjust existing UI Variables:
