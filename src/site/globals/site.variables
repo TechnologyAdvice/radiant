@@ -6,12 +6,12 @@
 --------------------*/
 
 @headerFont        : 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@pageFont          : 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Open Sans', sans-serif;
 @fontSmoothing     : antialiased;
 
 @importGoogleFonts        : true;
 @googleProtocol           : 'https://';
-@googleBodyFontName       : 'Source+Sans+Pro';
+@googleBodyFontName       : 'Open+Sans';
 @googleBodyFontSizes      : '300,400,600';
 @googleHeaderFontName     : 'Roboto';
 @googleHeaderFontSizes    : '400,500,700';
