@@ -175,3 +175,10 @@
 @transitionEasing           : @defaultEasing;
 @transitionEaseEnter        : @easeOutQuart;   // elements entering the scene
 @transitionEaseLeave        : @easeInQuart;    // elements leaving the scene
+
+/*-------------------
+        Paths
+--------------------*/
+
+@imagePath : '../images';
+@fontPath  : '../fonts';

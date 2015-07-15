@@ -47,10 +47,10 @@ gulp.task('build-cached-less', function() {
     .pipe(g.concat('radiant.css'))       // concat all css files
     .pipe(g.less())                 // move font @imports to the top
     .pipe(g.autoprefixer())         // autoprefix for browser support
-    .pipe(gulp.dest(paths.dist))    // put in dist
+    .pipe(gulp.dest(paths.dist + '/css'))    // put in dist
     .pipe(g.minifyCss(minifyOpts))  // minify the build
     .pipe(g.rename('radiant.min.css'))   // rename
-    .pipe(gulp.dest(paths.dist));   // put that in dist also
+    .pipe(gulp.dest(paths.dist + '/css'));   // put that in dist also
 });
 
 gulp.task('build-all-less', function(cb) {
