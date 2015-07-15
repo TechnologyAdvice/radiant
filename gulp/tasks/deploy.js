@@ -66,12 +66,12 @@ gulp.task('commit-deploy', function(cb) {
 
   exec(gitAddCommand, function(err, stdout, stderr) {
     if (err) {
-      helpfulError(stderr || stdout, stdout || stderr, true);
+      throw new Error(stderr || stdout);
     }
 
     exec(gitCommitCommand, function(err, stdout, stderr) {
       if (err) {
-        helpfulError(err || stderr, stdout);
+        throw new Error(err || stderr);
       }
       cb();
     });
