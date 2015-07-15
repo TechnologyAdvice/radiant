@@ -5,9 +5,18 @@
      Fonts
 --------------------*/
 
-@headerFont       : 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@pageFont         : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@googleFontFamily : 'Roboto:400,300,300italic,400italic,500,500italic,700,700italic|Open+Sans:300italic,400italic,600italic,400,300,600';
+@headerFont        : 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@fontSmoothing     : antialiased;
+
+@importGoogleFonts        : true;
+@googleProtocol           : 'https://';
+@googleBodyFontName       : 'Source+Sans+Pro';
+@googleBodyFontSizes      : '300,400,600';
+@googleHeaderFontName     : 'Roboto';
+@googleHeaderFontSizes    : '400,500,700';
+
+@googleFontRequest        : '@{googleBodyFontName}:@{googleBodyFontSizes}|@{googleHeaderFontName}:@{googleHeaderFontSizes}';
 
 /*-------------------
     Base Sizes
