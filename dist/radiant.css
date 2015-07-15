@@ -362,6 +362,10 @@
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -1399,6 +1403,10 @@ th {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -1439,6 +1447,10 @@ th {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -1966,6 +1978,10 @@ input::selection {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -2526,6 +2542,10 @@ input::selection {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -3751,6 +3771,10 @@ input::selection {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -5986,6 +6010,10 @@ input::selection {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -7804,6 +7832,10 @@ input::selection {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -8628,6 +8660,10 @@ input::selection {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -9991,6 +10027,10 @@ input::selection {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -11184,7 +11224,7 @@ input::selection {
 }
 .ui.blue.buttons .button:hover,
 .ui.blue.button:hover {
-  background-color: #569dc8;
+  background-color: #367ba5;
   color: #ffffff;
   text-shadow: none;
 }
@@ -11211,8 +11251,8 @@ input::selection {
 .ui.basic.blue.buttons .button:hover,
 .ui.basic.blue.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #569dc8 inset !important;
-  color: #569dc8 !important;
+  box-shadow: 0px 0px 0px 2px #367ba5 inset !important;
+  color: #367ba5 !important;
 }
 .ui.basic.blue.buttons .button:active,
 .ui.basic.blue.button:active {
@@ -11292,7 +11332,7 @@ input::selection {
 }
 .ui.green.buttons .button:hover,
 .ui.green.button:hover {
-  background-color: #57c583;
+  background-color: #38a263;
   color: #ffffff;
   text-shadow: none;
 }
@@ -11319,8 +11359,8 @@ input::selection {
 .ui.basic.green.buttons .button:hover,
 .ui.basic.green.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #57c583 inset !important;
-  color: #57c583 !important;
+  box-shadow: 0px 0px 0px 2px #38a263 inset !important;
+  color: #38a263 !important;
 }
 .ui.basic.green.buttons .button:active,
 .ui.basic.green.button:active {
@@ -11400,7 +11440,7 @@ input::selection {
 }
 .ui.orange.buttons .button:hover,
 .ui.orange.button:hover {
-  background-color: #dfa949;
+  background-color: #c48a22;
   color: #ffffff;
   text-shadow: none;
 }
@@ -11427,8 +11467,8 @@ input::selection {
 .ui.basic.orange.buttons .button:hover,
 .ui.basic.orange.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #dfa949 inset !important;
-  color: #dfa949 !important;
+  box-shadow: 0px 0px 0px 2px #c48a22 inset !important;
+  color: #c48a22 !important;
 }
 .ui.basic.orange.buttons .button:active,
 .ui.basic.orange.button:active {
@@ -11508,7 +11548,7 @@ input::selection {
 }
 .ui.pink.buttons .button:hover,
 .ui.pink.button:hover {
-  background-color: #dc56a1;
+  background-color: #c62981;
   color: #ffffff;
   text-shadow: none;
 }
@@ -11535,8 +11575,8 @@ input::selection {
 .ui.basic.pink.buttons .button:hover,
 .ui.basic.pink.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #dc56a1 inset !important;
-  color: #dc56a1 !important;
+  box-shadow: 0px 0px 0px 2px #c62981 inset !important;
+  color: #c62981 !important;
 }
 .ui.basic.pink.buttons .button:active,
 .ui.basic.pink.button:active {
@@ -11616,7 +11656,7 @@ input::selection {
 }
 .ui.purple.buttons .button:hover,
 .ui.purple.button:hover {
-  background-color: #5c5594;
+  background-color: #423c6a;
   color: #ffffff;
   text-shadow: none;
 }
@@ -11643,8 +11683,8 @@ input::selection {
 .ui.basic.purple.buttons .button:hover,
 .ui.basic.purple.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #5c5594 inset !important;
-  color: #5c5594 !important;
+  box-shadow: 0px 0px 0px 2px #423c6a inset !important;
+  color: #423c6a !important;
 }
 .ui.basic.purple.buttons .button:active,
 .ui.basic.purple.button:active {
@@ -11724,7 +11764,7 @@ input::selection {
 }
 .ui.red.buttons .button:hover,
 .ui.red.button:hover {
-  background-color: #db5e55;
+  background-color: #c3342a;
   color: #ffffff;
   text-shadow: none;
 }
@@ -11751,8 +11791,8 @@ input::selection {
 .ui.basic.red.buttons .button:hover,
 .ui.basic.red.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #db5e55 inset !important;
-  color: #db5e55 !important;
+  box-shadow: 0px 0px 0px 2px #c3342a inset !important;
+  color: #c3342a !important;
 }
 .ui.basic.red.buttons .button:active,
 .ui.basic.red.button:active {
@@ -11832,7 +11872,7 @@ input::selection {
 }
 .ui.teal.buttons .button:hover,
 .ui.teal.button:hover {
-  background-color: #00c4bc;
+  background-color: #00827c;
   color: #ffffff;
   text-shadow: none;
 }
@@ -11859,8 +11899,8 @@ input::selection {
 .ui.basic.teal.buttons .button:hover,
 .ui.basic.teal.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #00c4bc inset !important;
-  color: #00c4bc !important;
+  box-shadow: 0px 0px 0px 2px #00827c inset !important;
+  color: #00827c !important;
 }
 .ui.basic.teal.buttons .button:active,
 .ui.basic.teal.button:active {
@@ -11940,7 +11980,7 @@ input::selection {
 }
 .ui.yellow.buttons .button:hover,
 .ui.yellow.button:hover {
-  background-color: #ddcb34;
+  background-color: #b1a21e;
   color: #ffffff;
   text-shadow: none;
 }
@@ -11967,8 +12007,8 @@ input::selection {
 .ui.basic.yellow.buttons .button:hover,
 .ui.basic.yellow.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 2px #ddcb34 inset !important;
-  color: #ddcb34 !important;
+  box-shadow: 0px 0px 0px 2px #b1a21e inset !important;
+  color: #b1a21e !important;
 }
 .ui.basic.yellow.buttons .button:active,
 .ui.basic.yellow.button:active {
@@ -12050,7 +12090,7 @@ input::selection {
 }
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: #569dc8;
+  background-color: #367ba5;
   color: #ffffff;
   text-shadow: none;
 }
@@ -12081,7 +12121,7 @@ input::selection {
 }
 .ui.secondary.buttons .button:hover,
 .ui.secondary.button:hover {
-  background-color: #ebecec;
+  background-color: #c9cbcc;
   color: #ffffff;
   text-shadow: none;
 }
@@ -12640,6 +12680,10 @@ input::selection {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -13227,6 +13271,10 @@ input::selection {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -14662,6 +14710,10 @@ i.flag.zimbabwe:before {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -14916,49 +14968,49 @@ a.ui.black.header:hover {
   color: #4a96c4 !important;
 }
 a.ui.blue.header:hover {
-  color: #569dc8 !important;
+  color: #367ba5 !important;
 }
 .ui.green.header {
   color: #4cc17b !important;
 }
 a.ui.green.header:hover {
-  color: #57c583 !important;
+  color: #38a263 !important;
 }
 .ui.orange.header {
   color: #dda33c !important;
 }
 a.ui.orange.header:hover {
-  color: #dfa949 !important;
+  color: #c48a22 !important;
 }
 .ui.pink.header {
   color: #d9499a !important;
 }
 a.ui.pink.header:hover {
-  color: #dc56a1 !important;
+  color: #c62981 !important;
 }
 .ui.purple.header {
   color: #564f8a !important;
 }
 a.ui.purple.header:hover {
-  color: #5c5594 !important;
+  color: #423c6a !important;
 }
 .ui.red.header {
   color: #d85248 !important;
 }
 a.ui.red.header:hover {
-  color: #db5e55 !important;
+  color: #c3342a !important;
 }
 .ui.teal.header {
   color: #00b5ad !important;
 }
 a.ui.teal.header:hover {
-  color: #00c4bc !important;
+  color: #00827c !important;
 }
 .ui.yellow.header {
   color: #dbc827 !important;
 }
 a.ui.yellow.header:hover {
-  color: #ddcb34 !important;
+  color: #b1a21e !important;
 }
 .ui.black.dividing.header {
   border-bottom: 2px solid #1b1c1d;
@@ -15019,49 +15071,49 @@ a.ui.inverted.black.header:hover {
   color: #66bbdd !important;
 }
 a.ui.inverted.blue.header:hover {
-  color: #73c1e0 !important;
+  color: #3ca8d4 !important;
 }
 .ui.inverted.green.header {
   color: #2ecc40 !important;
 }
 a.ui.inverted.green.header:hover {
-  color: #37d249 !important;
+  color: #25a233 !important;
 }
 .ui.inverted.orange.header {
   color: #ff851b !important;
 }
 a.ui.inverted.orange.header:hover {
-  color: #ff8d2a !important;
+  color: #e76b00 !important;
 }
 .ui.inverted.pink.header {
   color: #ff8edf !important;
 }
 a.ui.inverted.pink.header:hover {
-  color: #ff9de3 !important;
+  color: #ff5bd1 !important;
 }
 .ui.inverted.purple.header {
   color: #cdc6ff !important;
 }
 a.ui.inverted.purple.header:hover {
-  color: #dad5ff !important;
+  color: #a093ff !important;
 }
 .ui.inverted.red.header {
   color: #ff695e !important;
 }
 a.ui.inverted.red.header:hover {
-  color: #ff776d !important;
+  color: #ff392b !important;
 }
 .ui.inverted.teal.header {
   color: #6dffff !important;
 }
 a.ui.inverted.teal.header:hover {
-  color: #7cffff !important;
+  color: #3affff !important;
 }
 .ui.inverted.yellow.header {
   color: #ffe21f !important;
 }
 a.ui.inverted.yellow.header:hover {
-  color: #ffe42e !important;
+  color: #ebcd00 !important;
 }
 .ui.inverted.block.header {
   border-bottom: none;
@@ -15577,6 +15629,10 @@ a.ui.inverted.yellow.header:hover {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -18382,6 +18438,10 @@ i.icon.bed:before {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -19054,6 +19114,10 @@ img.ui.bordered.image {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -19892,6 +19956,10 @@ img.ui.bordered.image {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -20363,14 +20431,14 @@ a.ui.black.label:hover:before {
 a.ui.blue.labels .label:hover,
 .ui.blue.labels a.label:hover,
 a.ui.blue.label:hover {
-  background-color: #569dc8 !important;
-  border-color: #569dc8 !important;
+  background-color: #367ba5 !important;
+  border-color: #367ba5 !important;
   color: #ffffff !important;
 }
 .ui.labels a.blue.label:hover:before,
 .ui.blue.labels a.label:hover:before,
 a.ui.blue.label:hover:before {
-  background-color: #569dc8 !important;
+  background-color: #367ba5 !important;
 }
 .ui.blue.corner.label,
 .ui.blue.corner.label:hover {
@@ -20393,13 +20461,13 @@ a.ui.blue.label:hover:before {
 }
 a.ui.green.labels .label:hover,
 a.ui.green.label:hover {
-  background-color: #57c583 !important;
-  border-color: #57c583 !important;
+  background-color: #38a263 !important;
+  border-color: #38a263 !important;
 }
 .ui.labels a.green.label:hover:before,
 .ui.green.labels a.label:hover:before,
 a.ui.green.label:hover:before {
-  background-color: #57c583 !important;
+  background-color: #38a263 !important;
 }
 .ui.green.corner.label,
 .ui.green.corner.label:hover {
@@ -20423,14 +20491,14 @@ a.ui.green.label:hover:before {
 a.ui.orange.labels .label:hover,
 .ui.orange.labels a.label:hover,
 a.ui.orange.label:hover {
-  background-color: #dfa949 !important;
-  border-color: #dfa949 !important;
+  background-color: #c48a22 !important;
+  border-color: #c48a22 !important;
   color: #ffffff !important;
 }
 .ui.labels a.orange.label:hover:before,
 .ui.orange.labels a.label:hover:before,
 a.ui.orange.label:hover:before {
-  background-color: #dfa949 !important;
+  background-color: #c48a22 !important;
 }
 .ui.orange.corner.label,
 .ui.orange.corner.label:hover {
@@ -20454,14 +20522,14 @@ a.ui.orange.label:hover:before {
 a.ui.pink.labels .label:hover,
 .ui.pink.labels a.label:hover,
 a.ui.pink.label:hover {
-  background-color: #dc56a1 !important;
-  border-color: #dc56a1 !important;
+  background-color: #c62981 !important;
+  border-color: #c62981 !important;
   color: #ffffff !important;
 }
 .ui.labels a.pink.label:hover:before,
 .ui.pink.labels a.label:hover:before,
 a.ui.pink.label:hover:before {
-  background-color: #dc56a1 !important;
+  background-color: #c62981 !important;
 }
 .ui.pink.corner.label,
 .ui.pink.corner.label:hover {
@@ -20485,14 +20553,14 @@ a.ui.pink.label:hover:before {
 a.ui.purple.labels .label:hover,
 .ui.purple.labels a.label:hover,
 a.ui.purple.label:hover {
-  background-color: #5c5594 !important;
-  border-color: #5c5594 !important;
+  background-color: #423c6a !important;
+  border-color: #423c6a !important;
   color: #ffffff !important;
 }
 .ui.labels a.purple.label:hover:before,
 .ui.purple.labels a.label:hover:before,
 a.ui.purple.label:hover:before {
-  background-color: #5c5594 !important;
+  background-color: #423c6a !important;
 }
 .ui.purple.corner.label,
 .ui.purple.corner.label:hover {
@@ -20519,14 +20587,14 @@ a.ui.purple.label:hover:before {
 }
 a.ui.red.labels .label:hover,
 a.ui.red.label:hover {
-  background-color: #db5e55 !important;
-  border-color: #db5e55 !important;
+  background-color: #c3342a !important;
+  border-color: #c3342a !important;
   color: #ffffff !important;
 }
 .ui.labels a.red.label:hover:before,
 .ui.red.labels a.label:hover:before,
 a.ui.red.label:hover:before {
-  background-color: #db5e55 !important;
+  background-color: #c3342a !important;
 }
 .ui.red.ribbon.label {
   border-color: #c3342a !important;
@@ -20546,14 +20614,14 @@ a.ui.red.label:hover:before {
 a.ui.teal.labels .label:hover,
 .ui.teal.labels a.label:hover,
 a.ui.teal.label:hover {
-  background-color: #00c4bc !important;
-  border-color: #00c4bc !important;
+  background-color: #00827c !important;
+  border-color: #00827c !important;
   color: #ffffff !important;
 }
 .ui.labels a.teal.label:hover:before,
 .ui.teal.labels a.label:hover:before,
 a.ui.teal.label:hover:before {
-  background-color: #00c4bc !important;
+  background-color: #00827c !important;
 }
 .ui.teal.corner.label,
 .ui.teal.corner.label:hover {
@@ -20577,14 +20645,14 @@ a.ui.teal.label:hover:before {
 a.ui.yellow.labels .label:hover,
 .ui.yellow.labels a.label:hover,
 a.ui.yellow.label:hover {
-  background-color: #ddcb34 !important;
-  border-color: #ddcb34 !important;
+  background-color: #b1a21e !important;
+  border-color: #b1a21e !important;
   color: #ffffff !important;
 }
 .ui.labels a.yellow.label:hover:before,
 .ui.yellow.labels a.label:hover:before,
 a.ui.yellow.label:hover:before {
-  background-color: #ddcb34 !important;
+  background-color: #b1a21e !important;
 }
 .ui.yellow.corner.label,
 .ui.yellow.corner.label:hover {
@@ -21211,6 +21279,10 @@ a.ui.yellow.label:hover:before {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -22412,6 +22484,10 @@ ol.ui.horizontal.list li:before,
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -23050,6 +23126,10 @@ ol.ui.horizontal.list li:before,
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -23528,6 +23608,10 @@ ol.ui.horizontal.list li:before,
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -24209,6 +24293,10 @@ ol.ui.horizontal.list li:before,
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -25198,6 +25286,10 @@ ol.ui.horizontal.list li:before,
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -25987,6 +26079,10 @@ ol.ui.horizontal.list li:before,
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -26617,6 +26713,10 @@ ol.ui.horizontal.list li:before,
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -27471,6 +27571,10 @@ ol.ui.horizontal.list li:before,
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -28109,6 +28213,10 @@ body.dimmed.dimmable > :not(.dimmer) {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -29491,6 +29599,10 @@ select.ui.dropdown {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -30289,6 +30401,10 @@ select.ui.dropdown {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -30834,6 +30950,10 @@ a.ui.nag {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -31491,6 +31611,10 @@ a.ui.nag {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -32306,6 +32430,10 @@ a.ui.nag {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -32928,6 +33056,10 @@ a.ui.nag {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -33600,6 +33732,10 @@ a.ui.nag {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -34130,6 +34266,10 @@ a.ui.nag {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -35048,6 +35188,10 @@ html.ios {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -35487,6 +35631,10 @@ html.ios {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -35940,6 +36088,10 @@ html.ios {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -38244,6 +38396,10 @@ html.ios {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -38721,6 +38877,10 @@ html.ios {
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -39381,6 +39541,10 @@ html.ios {
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -39849,42 +40013,42 @@ a.ui.card:hover,
 .ui.blue.cards > .card:hover,
 .ui.cards > .blue.card:hover,
 .ui.blue.card:hover {
-  box-shadow: 0px 3px 0px 0px #569dc8, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #367ba5, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.green.cards > .card:hover,
 .ui.cards > .green.card:hover,
 .ui.green.card:hover {
-  box-shadow: 0px 3px 0px 0px #57c583, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #38a263, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.orange.cards > .card:hover,
 .ui.cards > .orange.card:hover,
 .ui.orange.card:hover {
-  box-shadow: 0px 3px 0px 0px #dfa949, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #c48a22, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.pink.cards > .card:hover,
 .ui.cards > .pink.card:hover,
 .ui.pink.card:hover {
-  box-shadow: 0px 3px 0px 0px #dc56a1, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #c62981, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.purple.cards > .card:hover,
 .ui.cards > .purple.card:hover,
 .ui.purple.card:hover {
-  box-shadow: 0px 3px 0px 0px #5c5594, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #423c6a, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.red.cards > .card:hover,
 .ui.cards > .red.card:hover,
 .ui.red.card:hover {
-  box-shadow: 0px 3px 0px 0px #db5e55, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #c3342a, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.teal.cards > .card:hover,
 .ui.cards > .teal.card:hover,
 .ui.teal.card:hover {
-  box-shadow: 0px 3px 0px 0px #00c4bc, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #00827c, 0px 0px 0px 1px #d4d4d5;
 }
 .ui.yellow.cards > .card:hover,
 .ui.cards > .yellow.card:hover,
 .ui.yellow.card:hover {
-  box-shadow: 0px 3px 0px 0px #ddcb34, 0px 0px 0px 1px #d4d4d5;
+  box-shadow: 0px 3px 0px 0px #b1a21e, 0px 0px 0px 1px #d4d4d5;
 }
 /*--------------
    Card Count
@@ -40614,6 +40778,10 @@ a.ui.card:hover,
        Links
 --------------------*/
 /*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
+/*-------------------
        Accents
 --------------------*/
 /* 4px @ default em */
@@ -41261,6 +41429,10 @@ a.ui.card:hover,
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -41931,6 +42103,10 @@ a.ui.card:hover,
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
@@ -42741,6 +42917,10 @@ a.ui.card:hover,
 /*-------------------
        Links
 --------------------*/
+/*-------------------
+        Hover
+--------------------*/
+/*---  Colors  ---*/
 /*-------------------
        Accents
 --------------------*/
