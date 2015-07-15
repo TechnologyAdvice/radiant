@@ -92,6 +92,32 @@
 @linkHoverColor      : darken(@linkColor, 10);
 
 /*-------------------
+        Hover
+--------------------*/
+
+/*---  Colors  ---*/
+@primaryColorHover    : darken(@primaryColor, 10%);
+@secondaryColorHover  : darken(@secondaryColor, 10%);
+
+@blueHover            : darken(@blue, 10%);
+@greenHover           : darken(@green, 10%);
+@orangeHover          : darken(@orange, 10%);
+@pinkHover            : darken(@pink, 10%);
+@purpleHover          : darken(@purple, 10%);
+@redHover             : darken(@red, 10%);
+@tealHover            : darken(@teal, 10%);
+@yellowHover          : darken(@yellow, 10%);
+
+@lightBlueHover       : darken(@lightBlue, 10%);
+@lightGreenHover      : darken(@lightGreen, 10%);
+@lightOrangeHover     : darken(@lightOrange, 10%);
+@lightPinkHover       : darken(@lightPink, 10%);
+@lightPurpleHover     : darken(@lightPurple, 10%);
+@lightRedHover        : darken(@lightRed, 10%);
+@lightTealHover       : darken(@lightTeal, 10%);
+@lightYellowHover     : darken(@lightYellow, 10%);
+
+/*-------------------
        Accents
 --------------------*/
 
