@@ -103,8 +103,6 @@ gulp.task('push-follow-tags', function(cb) {
 // NPM
 //
 
-gulp.task('publish', g.shell.task('npm publish'));
-
 gulp.task('tag', function() {
   var userMessage = argv.m ? argv.m : '@$(git config user.name)';
   var commitMessage = 'tag v%s: ' + userMessage;
