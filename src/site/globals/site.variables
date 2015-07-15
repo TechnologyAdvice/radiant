@@ -6,23 +6,32 @@
 --------------------*/
 
 @headerFont        : 'Roboto', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@pageFont          : 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-@googleFontFamily  : 'Roboto:400,300,300italic,400italic,500,500italic,700,700italic|Open+Sans:300italic,400italic,600italic,400,300,600';
+@pageFont          : 'Open Sans', sans-serif;
+@fontSmoothing     : antialiased;
+
+@importGoogleFonts        : true;
+@googleProtocol           : 'https://';
+@googleBodyFontName       : 'Open+Sans';
+@googleBodyFontSizes      : '300,400,600';
+@googleHeaderFontName     : 'Roboto';
+@googleHeaderFontSizes    : '400,500,700';
+
+@googleFontRequest        : '@{googleBodyFontName}:@{googleBodyFontSizes}|@{googleHeaderFontName}:@{googleHeaderFontSizes}';
 
 /*-------------------
     Base Sizes
 --------------------*/
 
-@emSize      : 16px;
-@fontSize    : 16px;
+@emSize           : 1rem;
+@fontSize         : 1rem;
 
 /*--------------
       Page
 ---------------*/
 
-@pageBackground      : #EBECED;
-@lineHeight          : 1.45;
-@textColor           : #444444;
+@pageBackground   : @grey;
+@lineHeight       : 1.45;
+@textColor        : #444444;
 
 /*--------------
   Page Heading
@@ -31,11 +40,11 @@
 @headerLineHeight : 1.33em;
 @headerFontWeight : 600;
 
-@h1               : 30px;
-@h2               : 22px;
-@h3               : 18px;
-@h4               : 16px;
-@h5               : 15px;
+@h1               : 1.875rem;
+@h2               : 1.375rem;
+@h3               : 1.125rem;
+@h4               : 1rem;
+@h5               : 0.95rem;
 
 /*--------------
    Paragraphs
@@ -78,5 +87,91 @@
        Links
 --------------------*/
 
-@linkColor           : #4A96C4;
+@linkColor           : @blue;
+@linkUnderline       : underline;
 @linkHoverColor      : darken(@linkColor, 10);
+
+/*-------------------
+        Hover
+--------------------*/
+
+/*---  Colors  ---*/
+@primaryColorHover    : darken(@primaryColor, 10%);
+@secondaryColorHover  : darken(@secondaryColor, 10%);
+
+@blueHover            : darken(@blue, 10%);
+@greenHover           : darken(@green, 10%);
+@orangeHover          : darken(@orange, 10%);
+@pinkHover            : darken(@pink, 10%);
+@purpleHover          : darken(@purple, 10%);
+@redHover             : darken(@red, 10%);
+@tealHover            : darken(@teal, 10%);
+@yellowHover          : darken(@yellow, 10%);
+
+@lightBlueHover       : darken(@lightBlue, 10%);
+@lightGreenHover      : darken(@lightGreen, 10%);
+@lightOrangeHover     : darken(@lightOrange, 10%);
+@lightPinkHover       : darken(@lightPink, 10%);
+@lightPurpleHover     : darken(@lightPurple, 10%);
+@lightRedHover        : darken(@lightRed, 10%);
+@lightTealHover       : darken(@lightTeal, 10%);
+@lightYellowHover     : darken(@lightYellow, 10%);
+
+/*-------------------
+       Accents
+--------------------*/
+
+/* 4px @ default em */
+@relativeBorderRadius   : 0;
+@absoluteBorderRadius   : 0;
+@defaultBorderRadius    : @absoluteBorderRadius;
+
+/*-------------------
+       Easing
+--------------------*/
+
+// http://easings.net/
+@easeInSine       : cubic-bezier(0.47, 0, 0.745, 0.715);
+@easeOutSine      : cubic-bezier(0.39, 0.575, 0.565, 1);
+@easeInOutSine    : cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+@easeInQuad       : cubic-bezier(0.55, 0.085, 0.68, 0.53);
+@easeOutQuad      : cubic-bezier(0.25, 0.46, 0.45, 0.94);
+@easeInOutQuad    : cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+@easeInCubic      : cubic-bezier(0.55, 0.055, 0.675, 0.19);
+@easeOutCubic     : cubic-bezier(0.215, 0.61, 0.355, 1);
+@easeInOutCubic   : cubic-bezier(0.645, 0.045, 0.355, 1);
+
+@easeInQuart      : cubic-bezier(0.895, 0.03, 0.685, 0.22);
+@easeOutQuart     : cubic-bezier(0.165, 0.84, 0.44, 1);
+@easeInOutQuart   : cubic-bezier(0.77, 0, 0.175, 1);
+
+@easeInQuint      : cubic-bezier(0.755, 0.05, 0.855, 0.06);
+@easeOutQuint     : cubic-bezier(0.23, 1, 0.32, 1);
+@easeInOutQuint   : cubic-bezier(0.86, 0, 0.07, 1);
+
+@easeInExpo       : cubic-bezier(0.95, 0.05, 0.795, 0.035);
+@easeOutExpo      : cubic-bezier(0.19, 1, 0.22, 1);
+@easeInOutExpo    : cubic-bezier(1, 0, 0, 1);
+
+@easeInCirc       : cubic-bezier(0.6, 0.04, 0.98, 0.335);
+@easeOutCirc      : cubic-bezier(0.075, 0.82, 0.165, 1);
+@easeInOutCirc    : cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+@easeInBack       : cubic-bezier(0.6, -0.28, 0.735, 0.045);
+@easeOutBack      : cubic-bezier(0.175, 0.885, 0.32, 1.275);
+@easeInOutBack    : cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+@defaultEasing    : @easeOutQuart;  // for snappier interfaces
+
+/*-------------------
+     Transitions
+--------------------*/
+
+@transitionDurationSlow     : 0.5s;
+@transitionDuration         : 0.2s;
+@transitionDurationFast     : 0.1s;
+@transitionEasing           : @defaultEasing;
+@transitionEaseEnter        : @easeOutQuart;   // elements entering the scene
+@transitionEaseLeave        : @easeInQuart;    // elements leaving the scene
