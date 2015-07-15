@@ -55,3 +55,32 @@ update the default theme and the definitions.
 1. Run a build.
 
 Done.
+
+## Deploying
+
+### Setup
+
+**Get your AWS keys**
+
+1. Sign into the [AWS console](https://technologyadvice.signin.aws.amazon.com/console)
+1. Go to the IAM (Identity and Access Management) service.
+1. Click on Users in the left nav, then your user
+1. Scroll to Security Credentials and click Create Access Key
+1. Download or copy the secret key, you will not have access to it again.
+
+**Add Environment Variables**
+Set environment variables in your dotfile (.profile, .bash_profile, etc)
+```terminal
+export RADIANT_AWS_ACCESS_KEY_ID=<access_key_id>
+export RADIANT_AWS_SECRET_ACCESS_KEY=<secret_access_key>
+```
+
+### Usage
+
+```
+gulp <deploy|tag> -v <major|minor|patch|premajor|preminor|prepatch|prerelease> [-m <commit message>]
+```
+
+- Bumps the version number
+- Tags Git
+- Uploads the current dist to S3.

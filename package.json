@@ -1,6 +1,6 @@
 {
   "name": "semantic-unity",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "A test ride of Semantic-UI as a potential candidate for Unity.",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "gulp-cached": "^1.1.0",
     "gulp-concat": "^2.5.2",
     "gulp-debug": "^2.0.1",
+    "gulp-git": "^1.2.4",
     "gulp-help": "^1.6.0",
     "gulp-less": "^3.0.3",
     "gulp-load-plugins": "^0.10.0",
@@ -34,9 +35,11 @@
     "gulp-plumber": "^0.6.6",
     "gulp-remember": "^0.3.0",
     "gulp-rename": "^1.2.2",
+    "gulp-shell": "^0.4.2",
     "gulp-util": "^3.0.5",
     "gulp-webserver": "^0.9.1",
     "lodash": "^3.10.0",
+    "minimist": "^1.1.1",
     "require-dir": "^0.3.0",
     "require-dot-file": "^0.4.0",
     "run-sequence": "^1.1.1",
