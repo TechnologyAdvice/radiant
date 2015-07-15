@@ -6,11 +6,40 @@ var paths = require('../paths');
 var runSequence = require('run-sequence');
 var _ = require('lodash');
 
+function validateNpmVersionFlag() {
+  var type = argv.v;
+  var validTypes = [
+    'major',
+    'minor',
+    'patch',
+    'premajor',
+    'preminor',
+    'prepatch',
+    'prerelease'
+  ];
+
+  var err = '"' + type + '" is not a valid -v flag value.';
+
+  var usage = [
+    'gulp <deploy|tag>',
+    '-v <' + validTypes.join('|') + '>',
+    '[-m <commit message>]'
+  ].join(' ');
+
+  if (!_.includes(validTypes, argv.v)) {
+    g.util.log(g.util.colors.red(err));
+    g.util.log(g.util.colors.green(usage));
+    throw new Error();
+  }
+}
+
+
 //
 // Deploy
 //
 
 gulp.task('deploy', 'deploy theme to cdn', function(cb) {
+  validateNpmVersionFlag();
   runSequence(
     'require-clean-work-tree',
     'build',
