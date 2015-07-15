@@ -61,7 +61,7 @@ gulp.task('require-clean-work-tree', function(cb) {
 gulp.task('commit-deploy', function(cb) {
   var userMessage = argv.m ? argv.m : '@$(git config user.name)';
   var message = 'build: ' + userMessage;
-  var gitAddCommand = join('git add -f', paths.dist, paths.docs, paths.pkg);
+  var gitAddCommand = 'git add -A .';
   var gitCommitCommand = 'git commit -m "' + message + '"';
 
   exec(gitAddCommand, function(err, stdout, stderr) {
