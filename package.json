@@ -1,6 +1,6 @@
 {
   "name": "semantic-unity",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A test ride of Semantic-UI as a potential candidate for Unity.",
   "main": "index.js",
   "scripts": {
