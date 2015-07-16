@@ -10,7 +10,7 @@ A theme build out of Semantic-UI named Radiant.
 
 
 ## Getting Started
-To customize and update the Radiant theme variables, add to or edit `./ui/site/globals/site.variables`
+To customize and update the Radiant theme variables, add to or edit `src/site/globals/site.variables`
 
 Use all files ending in `.variables` to add or adjust existing UI Variables:
 ```less
