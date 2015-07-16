@@ -77,10 +77,14 @@ export RADIANT_AWS_SECRET_ACCESS_KEY=<secret_access_key>
 
 ### Usage
 
+After merging a new feature into master:
+
 ```
 gulp deploy -v <major|minor|patch|premajor|preminor|prepatch|prerelease> [-m <commit message>]
 ```
 
-- Bumps the version number
-- Tags Git
-- Uploads the current dist to S3.
+- Creates a fresh build
+- Bumps the version number specified with `-v`
+- Creates a tag
+- Pushes the fresh build and tag
+- Uploads the build to S3 under the new version number
