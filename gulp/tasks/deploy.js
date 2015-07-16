@@ -188,9 +188,6 @@ gulp.task('upload-to-s3', function(cb) {
       path.dirname = prefix + '/' + path.dirname;
     }))
 
-    // gzip, Set Content-Encoding headers and add .gz extension 
-    .pipe(g.awspublish.gzip({ext: '.gz'}))
-
     // publisher will add Content-Length, Content-Type and headers specified
     // above. If not specified it will set x-amz-acl to public-read by default.
     .pipe(publisher.publish(headers))
