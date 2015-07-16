@@ -154,6 +154,7 @@ gulp.task('tag', function() {
 //
 
 gulp.task('upload-to-s3', function(cb) {
+  var pkg = require('../../package.json');
   var AWS_ACCESS_KEY_ID = process.env.RADIANT_AWS_ACCESS_KEY_ID;
   var AWS_SECRET_ACCESS_KEY = process.env.RADIANT_AWS_SECRET_ACCESS_KEY;
 
