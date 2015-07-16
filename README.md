@@ -78,7 +78,7 @@ export RADIANT_AWS_SECRET_ACCESS_KEY=<secret_access_key>
 ### Usage
 
 ```
-gulp <deploy|tag> -v <major|minor|patch|premajor|preminor|prepatch|prerelease> [-m <commit message>]
+gulp deploy -v <major|minor|patch|premajor|preminor|prepatch|prerelease> [-m <commit message>]
 ```
 
 - Bumps the version number
