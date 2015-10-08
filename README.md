@@ -1,6 +1,10 @@
 Radiant
 =======
-A theme build out of Semantic-UI named Radiant.
+Semantic UI theme for internal TechnolgoyAdvice apps.
+
+See [learn semantic](http://learnsemantic.com/) for understanding this project.
+
+**[Demo](http://technologyadvice.github.io/radiant/)**
 
 ## Development
 `npm start` - Installs dependencies and runs gulp.
