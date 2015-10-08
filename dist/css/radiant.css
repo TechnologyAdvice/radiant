@@ -31906,7 +31906,7 @@ ol.ui.horizontal.list li:before,
 }
 .ui.toggle.checkbox input:checked ~ .box:before,
 .ui.toggle.checkbox input:checked ~ label:before {
-  background-color: #4A96C4;
+  background-color: #4CC17B;
 }
 .ui.toggle.checkbox input:checked ~ .box:after,
 .ui.toggle.checkbox input:checked ~ label:after {
