@@ -2,7 +2,3 @@
          Site Overrides
 *******************************/
 
-.ui.grid > .row > .column {
-  padding-left: (@gutterWidth / 4);
-  padding-right: (@gutterWidth / 4);
-}
