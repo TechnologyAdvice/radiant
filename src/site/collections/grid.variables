@@ -1,3 +1,10 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@gutterWidth: 1rem;
+@rowSpacing: 1rem;
+
+@relaxedGutterWidth: 1.5rem;
+@veryRelaxedGutterWidth: 2.5rem;
+
