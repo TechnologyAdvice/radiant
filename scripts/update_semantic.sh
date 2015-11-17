@@ -10,11 +10,11 @@
 set -e
 
 # get latest semantic
-npm i semantic-ui-less@latest -S
+npm i semantic-ui-less@latest -D
 
 # themes
 rm -rf src/themes/*
-cp -R node_modules/semantic-ui-less/themes/* src/themes/default
+cp -R node_modules/semantic-ui-less/themes/* src/themes/
 
 # definitions
 rm -rf src/definitions/*

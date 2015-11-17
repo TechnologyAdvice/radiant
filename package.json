@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "npm i",
-    "start": "gulp"
+    "start": "gulp",
+    "update-semantic": "source scripts/update_semantic.sh"
   },
   "repository": {
     "type": "git",
