@@ -2,3 +2,4 @@
     User Variable Overrides
 *******************************/
 @toggleOnLaneColor: @green;
+@toggleOnFocusLaneColor: @greenFocus;
