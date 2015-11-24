@@ -11678,6 +11678,9 @@ Floated Menu / Item
 .ui.compact.table th {
   padding: 0.4em 0.7em;
 }
+.ui.table td {
+  font-size: 0.9em;
+}
 /*******************************
              Mix-ins
 *******************************/

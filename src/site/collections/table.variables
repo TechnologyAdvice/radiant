@@ -11,3 +11,7 @@
 .ui.compact.table th {
   padding: @compactVerticalPadding @compactHorizontalPadding;
 }
+
+.ui.table td {
+  font-size: @small;
+}
