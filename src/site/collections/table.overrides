@@ -2,12 +2,3 @@
          Site Overrides
 *******************************/
 
-// Add vertical padding to the table header
-.ui.compact.table th {
-  padding: @compactVerticalPadding @compactHorizontalPadding;
-}
-
-// Change body font size in the compact table class
-.ui.compact.table td {
-  font-size: @small;
-}
