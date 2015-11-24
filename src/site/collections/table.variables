@@ -7,11 +7,3 @@
 @compactHorizontalPadding: 0.7em;
 @veryCompactVerticalPadding: 0.3em;
 @veryCompactHorizontalPadding: 0.6em;
-
-.ui.compact.table th {
-  padding: @compactVerticalPadding @compactHorizontalPadding;
-}
-
-.ui.table td {
-  font-size: @small;
-}

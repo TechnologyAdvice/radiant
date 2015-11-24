@@ -11675,12 +11675,6 @@ Floated Menu / Item
 /*******************************
     User Variable Overrides
 *******************************/
-.ui.compact.table th {
-  padding: 0.4em 0.7em;
-}
-.ui.table td {
-  font-size: 0.9em;
-}
 /*******************************
              Mix-ins
 *******************************/
@@ -12653,6 +12647,12 @@ Floated Menu / Item
 /*******************************
          Site Overrides
 *******************************/
+.ui.compact.table th {
+  padding: 0.4em 0.7em;
+}
+.ui.compact.table td {
+  font-size: 0.9em;
+}
 /*!
  * # Semantic UI - Button
  * http://github.com/semantic-org/semantic-ui/
