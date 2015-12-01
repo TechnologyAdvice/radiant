@@ -19,7 +19,7 @@
     "url": "https://github.com/TechnologyAdvice/semantic-unity/issues"
   },
   "homepage": "https://github.com/TechnologyAdvice/semantic-unity",
-  "devDependencies": {
+  "dependencies": {
     "del": "^1.2.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
@@ -39,6 +39,7 @@
     "gulp-shell": "^0.4.2",
     "gulp-util": "^3.0.5",
     "gulp-webserver": "^0.9.1",
+    "json": "^9.0.3",
     "lodash": "^3.10.0",
     "minimist": "^1.1.1",
     "require-dir": "^0.3.0",
