@@ -27,33 +27,10 @@ This project uses a custom build.  **Do not** use Semantic UI's build or update.
 
 ## Deploying
 
-### Setup
-
-**Get your AWS keys**
-
-1. Sign into the [AWS console](https://technologyadvice.signin.aws.amazon.com/console)
-1. Go to the IAM (Identity and Access Management) service.
-1. Click on Users in the left nav, then your user
-1. Scroll to Security Credentials and click Create Access Key
-1. Download or copy the secret key, you will not have access to it again.
-
-**Add Environment Variables**
-Set environment variables in your dotfile (.profile, .bash_profile, etc)
-```terminal
-export RADIANT_AWS_ACCESS_KEY_ID=<access_key_id>
-export RADIANT_AWS_SECRET_ACCESS_KEY=<secret_access_key>
-```
-
-### Usage
-
-After merging a new feature into master:
+Merge a PR that bumps the version, CI/CD will handle the rest:
 
 ```
-gulp deploy -v <major|minor|patch|premajor|preminor|prepatch|prerelease> [-m <commit message>]
+npm version <version>
+git push
+git push --follow-tags
 ```
-
-- Creates a fresh build
-- Bumps the version number specified with `-v`
-- Creates a tag
-- Pushes the fresh build and tag
-- Uploads the build to S3 under the new version number
