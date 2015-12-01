@@ -45,4 +45,4 @@ BUCKET=ta-radiant-assets
 DIRECTORY=./dist
 NPM_PACKAGE_VERSION=$(json -f package.json version)
 
-aws s3 sync ${DIRECTORY} s3://${BUCKET}/${NPM_PACKAGE_VERSION}/ --delete
+aws s3 sync ${DIRECTORY} s3://${BUCKET}/${NPM_PACKAGE_VERSION}/ --delete --acl public-read
