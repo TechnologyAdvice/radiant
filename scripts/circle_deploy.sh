@@ -9,8 +9,7 @@ git config --global user.email "devteam@technologyadvice.com"
 #
 # build
 #
-$(npm bin)/gulp build
-$(npm bin)/gulp docs
+gulp build docs
 
 #
 # generate changelog
@@ -18,7 +17,7 @@ $(npm bin)/gulp docs
 echo "...installing github changelog generator"
 gem install github_changelog_generator
 echo "...generating changelog"
-github_changelog_generator $CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME
+github_changelog_generator ${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}
 
 #
 # push to master and gh-pages
