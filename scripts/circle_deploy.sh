@@ -1,27 +1,17 @@
 #!/usr/bin/env bash
 
-#
+NPM_PACKAGE_VERSION=$(json -f package.json version)
+
 # configure git
-#
 git config --global user.name "tadeploy"
 git config --global user.email "devteam@technologyadvice.com"
 
-#
-# build
-#
-gulp build docs
-
-#
 # generate changelog
-#
-echo "...installing github changelog generator"
-gem install github_changelog_generator
 echo "...generating changelog"
-github_changelog_generator ${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}
+ta-script circle_ci/create_changelog
 
-#
-# push to master and gh-pages
-#
+# gh-pages
+gulp build docs
 git add .
 
 if [[ -n $(git status --porcelain) ]]; then
@@ -33,15 +23,6 @@ else
   echo "...skipping push, repo is clean after build"
 fi
 
-#
 # s3 sync
-#
-echo "...installing awscli"
-sudo pip install awscli
-
 echo "...syncing with s3"
-BUCKET=ta-radiant-assets
-DIRECTORY=./dist
-NPM_PACKAGE_VERSION=$(json -f package.json version)
-
-aws s3 sync ${DIRECTORY} s3://${BUCKET}/${NPM_PACKAGE_VERSION}/ --delete --acl public-read
+ta-script aws/s3_sync -d ./dist -b ta-radiant-assets/${NPM_PACKAGE_VERSION}

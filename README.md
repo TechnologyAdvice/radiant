@@ -21,16 +21,12 @@ Then checkout the Semantic UI guidelines on our [wiki](https://github.com/Techno
 ## Updating Semantic
 This project uses a custom build.  **Do not** use Semantic UI's build or update. You will hose this project.
 
-```
-  $ npm run update-semantic
-```
+    npm run update-semantic
 
-## Deploying
+### Releasing
 
-Merge a PR that bumps the version, CI/CD will handle the rest:
+On the latest clean `master`:
 
-```
-npm version <version>
-git push
-git push --follow-tags
-```
+    npm run release:major
+    npm run release:minor
+    npm run release:patch
