@@ -26,7 +26,7 @@ git add .
 
 if [[ -n $(git status --porcelain) ]]; then
   echo "...starting push, repo is dirty after build"
-  git commit -n -m "deploy commit by $CIRCLE_USERNAME"
+  git commit -n -m "deploy commit by $CIRCLE_USERNAME [ci skip]"
   git push origin master
   git push -f origin master:gh-pages
 else
