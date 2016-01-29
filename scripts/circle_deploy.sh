@@ -25,4 +25,4 @@ fi
 
 # s3 sync
 echo "...syncing with s3"
-ta-script aws/s3_sync -d ./dist -b ta-radiant-assets/${NPM_PACKAGE_VERSION}
+ta-script aws/s3_sync -- -d ./dist -b ta-radiant-assets/${NPM_PACKAGE_VERSION}
