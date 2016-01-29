@@ -12,6 +12,7 @@
 
 **Merged pull requests:**
 
+- Selectable table cursor pointer [\#18](https://github.com/TechnologyAdvice/radiant/pull/18) ([levithomason](https://github.com/levithomason))
 - Decrease compact table padding [\#16](https://github.com/TechnologyAdvice/radiant/pull/16) ([kyleturco](https://github.com/kyleturco))
 - Chore/update checkbox color [\#13](https://github.com/TechnologyAdvice/radiant/pull/13) ([kyleturco](https://github.com/kyleturco))
 - add new column padding .5rem, add gride section to docs, update color… [\#12](https://github.com/TechnologyAdvice/radiant/pull/12) ([kyleturco](https://github.com/kyleturco))
