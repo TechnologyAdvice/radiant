@@ -22,7 +22,8 @@
     "url": "https://github.com/TechnologyAdvice/radiant/issues"
   },
   "homepage": "https://github.com/TechnologyAdvice/radiant",
-  "dependencies": {
+  "devDependencies": {
+    "@technologyadvice/ta-scripts": "^1.3.1",
     "del": "^1.2.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
@@ -51,8 +52,5 @@
     "semantic-ui-less": "^2.1.6",
     "through2": "^2.0.0",
     "vinyl": "^0.5.0"
-  },
-  "devDependencies": {
-    "@technologyadvice/ta-scripts": "^1.3.1"
   }
 }
