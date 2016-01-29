@@ -1,7 +1,7 @@
 {
-  "name": "semantic-unity",
+  "name": "@technologyadvice/radiant",
   "version": "0.3.0",
-  "description": "A test ride of Semantic-UI as a potential candidate for Unity.",
+  "description": "Semantic UI theme for internal TechnolgoyAdvice apps.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TechnologyAdvice/semantic-unity.git"
+    "url": "https://github.com/TechnologyAdvice/radiant.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TechnologyAdvice/semantic-unity/issues"
+    "url": "https://github.com/TechnologyAdvice/radiant/issues"
   },
-  "homepage": "https://github.com/TechnologyAdvice/semantic-unity",
+  "homepage": "https://github.com/TechnologyAdvice/radiant",
   "dependencies": {
     "del": "^1.2.0",
     "gulp": "^3.9.0",
