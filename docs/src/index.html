@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-    <meta charset="UTF-8">
-    <title>Radiant Style Guide</title>
-    <link rel="stylesheet" type="text/css" href="../../dist/css/radiant.css">
-    <link rel="stylesheet" type="text/css" href="doc-overrides.css">
+  <meta charset="UTF-8">
+  <title>Radiant Style Guide</title>
+  <link rel="stylesheet" type="text/css" href="../../dist/css/radiant.css">
+  <link rel="stylesheet" type="text/css" href="doc-overrides.css">
 </head>
 <body class="style guide">
   <div class="ui inverted blue menu">
     <div class="header item">
-        <i class="sun icon"></i> Radiant
+      <i class="sun icon"></i> Radiant
     </div>
     <div class="right menu">
       <div class="header item">
-          Design Elements
+        Design Elements
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@
               <div class="blue center aligned column">
                 <pre>@blue</pre>
               </div>
-              <div class="light blue active header center aligned column">
+              <div class="light blue center aligned column">
                 <pre>@lightBlue</pre>
               </div>
               <div class="dark grey center aligned column">
@@ -107,7 +107,9 @@
           <h5>h5 - We are an impossibility in an impossible universe.</h5>
           <h6>h6 - We are an impossibility in an impossible universe.</h6>
           <h2>Base Copy</h2>
-          <p>The stars we are given. The constellations we make. That is to say, stars exist in the cosmos, but constellations are the imaginary lines we draw between them, the readings we give the sky, the stories we tell.</p>
+          <p>The stars we are given. The constellations we make. That is to say, stars exist in the cosmos, but
+            constellations are the imaginary lines we draw between them, the readings we give the sky, the stories we
+            tell.</p>
           <p>― Rebecca Solnit</p>
         </div>
       </div>
@@ -180,6 +182,81 @@
                 <td>None</td>
               </tr>
             </tbody>
+          </table>
+          <h2>Selectable Row</h2>
+          <table class="ui selectable table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Francine</td>
+                <td>Approved</td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td>Arthur</td>
+                <td>Approved</td>
+                <td>Please follow up</td>
+              </tr>
+              <tr>
+                <td>Ervaline</td>
+                <td>Approved</td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td>Edgar</td>
+                <td>Approved</td>
+                <td>Has an outstanding balance</td>
+              </tr>
+              <tr>
+                <td>Maximus</td>
+                <td>Approved</td>
+                <td>None</td>
+              </tr>
+            </tbody>
+          </table>
+          <h2>Selectable Cell</h2>
+          <table class="ui table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Francine</td>
+                <td>None</td>
+                <td class="selectable"><a href>Approve</a></td>
+              </tr>
+              <tr>
+                <td>Arthur</td>
+                <td>Please follow up</td>
+                <td class="selectable"><a href="">Approve</a></td>
+              </tr>
+              <tr>
+                <td>Ervaline</td>
+                <td>None</td>
+                <td class="selectable"><a href="">Approve</a></td>
+              </tr>
+              <tr>
+                <td>Edgar</td>
+                <td>Has an outstanding balance</td>
+                <td class="selectable"><a href="">Approve</a></td>
+              </tr>
+              <tr>
+                <td>Maximus</td>
+                <td>None</td>
+                <td class="selectable"><a href="">Approve</a></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>

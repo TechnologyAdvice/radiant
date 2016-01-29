@@ -2,3 +2,17 @@
          Site Overrides
 *******************************/
 
+// ----------------------------------------
+// Cursor pointer for "selectable" style
+// ----------------------------------------
+
+// rows
+.ui.selectable.table tbody tr:hover,
+.ui.table tbody tr td.selectable:hover {
+  cursor: pointer;
+}
+
+// cells
+.ui.table tbody tr td.selectable {
+  cursor: pointer;
+}

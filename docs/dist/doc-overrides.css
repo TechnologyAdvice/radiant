@@ -9,12 +9,6 @@
 .ui.grid > .row > .grey.column {
   background-color: #e3e4e5 !important;
 }
-.ui.grid > .row > .grey.column {
-  margin-top: -1rem;
-  margin-bottom: -1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 .ui.grid > .light.blue.row,
 .ui.grid > .light.blue.column,
 .ui.grid > .row > .light.blue.column {
