@@ -1,10 +1,27 @@
-[Radiant](http://technologyadvice.github.io/radiant/)
-=======
+# [Radiant](http://technologyadvice.github.io/radiant/)
+
 Semantic UI theme for internal TechnolgoyAdvice apps.
+
+## Install
+
+**NPM**
+
+```bash
+npm i @technologyadvice/radiant -S
+```
+
+**CDN**
+
+```bash
+d6xw8h2ajn62r.cloudfront.net/x.x.x/css/radiant.min.css
+```
+
+## Usage
 
 See [learn semantic](http://learnsemantic.com/) for understanding this project.
 
 ## Development
+
 `npm start` - Installs dependencies and runs gulp.
 
 `gulp` - Sets up everything needed for development, see the task for details.  
@@ -12,6 +29,7 @@ See [learn semantic](http://learnsemantic.com/) for understanding this project.
 
 
 ## Getting Started
+
 See the [Semantic UI Customizing](http://learnsemantic.com/developing/customizing.html) docs.
 
 Then checkout the Semantic UI guidelines on our [wiki](https://github.com/TechnologyAdvice/TAPAnsible/wiki/).

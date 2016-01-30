@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "prestart": "npm i",
     "release:major": "ta-script npm/release.sh -- major",
     "release:minor": "ta-script npm/release.sh -- minor",
     "release:patch": "ta-script npm/release.sh -- patch",
