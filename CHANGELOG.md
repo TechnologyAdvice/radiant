@@ -1,5 +1,16 @@
 # Change Log
 
+## [v0.3.1](https://github.com/TechnologyAdvice/radiant/tree/v0.3.1) (2016-01-30)
+[Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v0.3.0...v0.3.1)
+
+**Closed issues:**
+
+- Dropdown menu alignment [\#17](https://github.com/TechnologyAdvice/radiant/issues/17)
+
+**Merged pull requests:**
+
+- Fix dropdown alignment [\#20](https://github.com/TechnologyAdvice/radiant/pull/20) ([levithomason](https://github.com/levithomason))
+
 ## [v0.3.0](https://github.com/TechnologyAdvice/radiant/tree/v0.3.0) (2016-01-29)
 [Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v0.1.2...v0.3.0)
 
