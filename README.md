@@ -1,10 +1,8 @@
-Radiant
+[Radiant](http://technologyadvice.github.io/radiant/)
 =======
 Semantic UI theme for internal TechnolgoyAdvice apps.
 
 See [learn semantic](http://learnsemantic.com/) for understanding this project.
-
-**[Demo](http://technologyadvice.github.io/radiant/)**
 
 ## Development
 `npm start` - Installs dependencies and runs gulp.
