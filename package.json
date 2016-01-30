@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/TechnologyAdvice/radiant",
   "devDependencies": {
-    "@technologyadvice/ta-scripts": "^1.5.0",
+    "@technologyadvice/ta-scripts": "^1.5.1",
     "del": "^1.2.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",

@@ -8,7 +8,7 @@ git config --global user.email "devteam@technologyadvice.com"
 
 # generate changelog
 echo "...generating changelog"
-ta-script circle_ci/create_changelog -t ${GITHUB_CHANGELOG_API_TOKEN}
+ta-script circle_ci/create_changelog -- -t ${GITHUB_CHANGELOG_API_TOKEN}
 
 # gh-pages
 gulp build docs
