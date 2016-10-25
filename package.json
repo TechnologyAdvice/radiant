@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "release:major": "ta-script npm/release.sh -- major",
-    "release:minor": "ta-script npm/release.sh -- minor",
-    "release:patch": "ta-script npm/release.sh -- patch",
+    "release:major": "ta-script npm/release major",
+    "release:minor": "ta-script npm/release minor",
+    "release:patch": "ta-script npm/release patch",
     "start": "gulp",
     "build": "gulp build",
     "build:docs": "gulp docs",
@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/TechnologyAdvice/radiant",
   "devDependencies": {
-    "@technologyadvice/ta-scripts": "^1.5.1",
     "del": "^2.2.2",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.1",
@@ -51,6 +50,7 @@
     "require-dot-file": "^0.4.0",
     "run-sequence": "^1.1.1",
     "semantic-ui-less": "^2.1.6",
+    "ta-scripts": "^2.5.2",
     "through2": "^2.0.0",
     "vinyl": "^2.0.0"
   }
