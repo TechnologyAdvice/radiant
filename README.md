@@ -35,6 +35,7 @@ See the [Semantic UI Customizing](http://learnsemantic.com/developing/customizin
 Then checkout the Semantic UI guidelines on our [wiki](https://github.com/TechnologyAdvice/TAPAnsible/wiki/).
 
 ## Updating Semantic
+
 This project uses a custom build.  **Do not** use Semantic UI's build or update. You will hose this project.
 
     npm run update-semantic

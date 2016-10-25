@@ -9,7 +9,8 @@
     "release:minor": "ta-script npm/release.sh -- minor",
     "release:patch": "ta-script npm/release.sh -- patch",
     "start": "gulp",
-    "update-semantic": "sh scripts/update_semantic.sh"
+    "update-semantic": "sh scripts/update_semantic.sh",
+    "postpublish": "greenkeeper-postpublish"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@technologyadvice/ta-scripts": "^1.5.1",
     "del": "^1.2.0",
+    "greenkeeper-postpublish": "^1.0.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-awspublish": "^2.0.2",
