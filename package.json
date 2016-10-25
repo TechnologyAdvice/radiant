@@ -9,6 +9,8 @@
     "release:minor": "ta-script npm/release.sh -- minor",
     "release:patch": "ta-script npm/release.sh -- patch",
     "start": "gulp",
+    "build": "gulp build",
+    "build:docs": "gulp docs",
     "update-semantic": "sh scripts/update_semantic.sh"
   },
   "repository": {
