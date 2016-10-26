@@ -1,5 +1,8 @@
 # Change Log
 
+## [v1.0.1](https://github.com/TechnologyAdvice/radiant/tree/v1.0.1) (2016-10-26)
+[Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.0...v1.0.1)
+
 ## [v1.0.0](https://github.com/TechnologyAdvice/radiant/tree/v1.0.0) (2016-10-26)
 [Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v0.3.1...v1.0.0)
 
