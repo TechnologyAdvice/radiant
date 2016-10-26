@@ -21,8 +21,8 @@ deployment:
 
       # gh-pages
       - echo "...deploying gh-pages"
-      - gulp build:docs
-      - gh-pages -d docs/dist -m 'deploy docs [ci skip]'
+      - npm run build:docs
+      - $(npm bin)/gh-pages -d docs/dist -m 'deploy docs [ci skip]'
 
       # s3 sync
       - echo "...syncing with s3"
