@@ -2,22 +2,22 @@
   "name": "@technologyadvice/radiant",
   "version": "0.3.1",
   "description": "Semantic UI theme for internal TechnolgoyAdvice apps.",
-  "main": "dist/radiant.css",
+  "main": "dist/css/radiant.css",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
+    "build": "gulp build",
+    "build:docs": "gulp docs",
     "test": "echo \"Error: no test specified\" && exit 0",
     "release:major": "ta-script npm/release major",
     "release:minor": "ta-script npm/release minor",
     "release:patch": "ta-script npm/release patch",
     "start": "gulp",
-    "build": "gulp build",
-    "build:docs": "gulp docs",
-    "update-semantic": "sh scripts/update_semantic.sh"
+    "update-semantic": "sh scripts/update_semantic.sh",
+    "postpublish": "greenkeeper-postpublish"
   },
-  "files": [
-    "dist",
-    "src",
-    "docs/dist"
-  ],
   "engines": {
     "node": ">=6",
     "npm": ">=3"
@@ -33,8 +33,10 @@
   },
   "homepage": "https://github.com/TechnologyAdvice/radiant",
   "devDependencies": {
+    "@technologyadvice/ta-scripts": "^1.5.1",
     "del": "^2.2.2",
     "gh-pages": "^0.11.0",
+    "greenkeeper-postpublish": "^1.0.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-awspublish": "^3.3.0",

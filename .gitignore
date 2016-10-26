@@ -5,5 +5,5 @@ bower_components/
 *.log*
 .awspublish*
 .ruby-version
-docs/dist
 dist/
+docs/dist/
