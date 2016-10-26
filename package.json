@@ -2,7 +2,11 @@
   "name": "@technologyadvice/radiant",
   "version": "0.3.1",
   "description": "Semantic UI theme for internal TechnolgoyAdvice apps.",
-  "main": "index.js",
+  "main": "dist/css/radiant.css",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "release:major": "ta-script npm/release.sh -- major",
