@@ -22,10 +22,11 @@ See [learn semantic](http://learnsemantic.com/) for understanding this project.
 
 ## Development
 
-`npm start` - Installs dependencies and runs gulp.
-
-`gulp` - Sets up everything needed for development, see the task for details.  
-`gulp help` - List gulp commands and help.
+```
+npm start             # build, watch, and serve docs
+npm build             # build the theme
+npm build:docs        # build the docs
+```
 
 
 ## Getting Started

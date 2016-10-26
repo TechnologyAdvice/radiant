@@ -1,14 +1,29 @@
 machine:
   node:
-    version: 4.2.1
+    version: 6
 
 dependencies:
   pre:
     - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
-    - npm install -g npm@3
 
 deployment:
   production:
     branch: master
     commands:
-      - bash scripts/circle_deploy.sh
+      # configure git
+      - echo "...configuring git"
+      - git config --global user.name "deweybot"
+      - git config --global user.email "deweybot+devteam@technologyadvice.com"
+
+      # generate changelog
+      - echo "...generating changelog"
+      - ta-script circle_ci/create_changelog -t ${GITHUB_CHANGELOG_API_TOKEN}
+
+      # gh-pages
+      - echo "...deploying gh-pages"
+      - gulp build:docs
+      - gh-pages -d docs/dist -m 'deploy docs [ci skip]'
+
+      # s3 sync
+      - echo "...syncing with s3"
+      - ta-script aws/s3_sync -d ./dist -b ta-radiant-assets/$(json -f package.json version)

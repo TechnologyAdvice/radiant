@@ -1,5 +1,5 @@
-var path = require('path');
-var PROJECT_ROOT = path.dirname(__dirname);
+const path = require('path')
+const PROJECT_ROOT = path.dirname(__dirname)
 
 module.exports = {
   root: PROJECT_ROOT,
@@ -37,8 +37,10 @@ module.exports = {
     PROJECT_ROOT + '/src/definitions/globals/site.less',    // site site base
     PROJECT_ROOT + '/src/definitions/**/*.less',            // all other less
 
-    // exclude busted video module
-    '!' + PROJECT_ROOT + '/src/definitions/modules/video.less'
+    // exclude busted modules
+    '!' + PROJECT_ROOT + '/src/definitions/modules/video.less',
+    '!' + PROJECT_ROOT + '/src/site/modules/chatroom.overrides',
+    '!' + PROJECT_ROOT + '/src/site/modules/chatroom.variables',
   ],
   assetFiles: [
     // icons
@@ -47,4 +49,4 @@ module.exports = {
     // images
     PROJECT_ROOT + '/src/themes/default/assets/**/*.{png,jpg,jpeg,gif,bmp}'
   ]
-};
+}
