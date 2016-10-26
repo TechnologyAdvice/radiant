@@ -1,12 +1,12 @@
-var g = require('gulp-load-plugins')();
-var gulp = g.help(require('gulp'), require('../gulphelp'));
-var del = require('del');
-var runSequence = require('run-sequence');
-var paths = require('../paths');
-var getSemanticLessFile = require('../plugins/getSemanticLessFile');
-var _ = require('lodash');
+const g = require('gulp-load-plugins')()
+const gulp = g.help(require('gulp'), require('../gulphelp'))
+const del = require('del')
+const runSequence = require('run-sequence')
+const paths = require('../paths')
+const getSemanticLessFile = require('../plugins/getSemanticLessFile')
+const _ = require('lodash')
 
-var minifyOpts = {keepSpecialComments: 0};
+const minifyOpts = { keepSpecialComments: 0 }
 
 gulp.task('build', 'build the theme and doc page', function(cb) {
   runSequence(
@@ -17,52 +17,57 @@ gulp.task('build', 'build the theme and doc page', function(cb) {
     ],
     cb
   )
-});
+})
 
 gulp.task('clean-build', function(cb) {
-  del(paths.dist, cb);
-});
+  del.sync(paths.dist)
+  cb()
+})
 
 gulp.task('build-assets', function() {
   return gulp.src(paths.assetFiles)
-    .pipe(g.cached('assets'))
-    .pipe(gulp.dest(paths.dist));
-});
+  // do not cache since docs rebuilds during watch
+  // this will del() dist then rebuild, but assets didn't change
+  // so they are never re-built after the first watch/rebuild cycle
+    .pipe(gulp.dest(paths.dist))
+})
+
+function buildLess({ src, cached }) {
+  return gulp.src(src)
+    .pipe(g.plumber())                          // don't kill watchers on error
+    .pipe(g.if(cached, g.cached('less')))       // only pass files changed since last build
+    .pipe(getSemanticLessFile())                // for *.variables/overrides use the *.less
+    .pipe(g.less())                             // compile to css
+    .pipe(g.if(cached, g.remember('less')))     // add back files that didn't change
+    .pipe(g.concat('radiant.css'))              // concat all css files
+    .pipe(g.less())                             // move font @imports to the top
+    .pipe(g.autoprefixer())                     // autoprefix for browser support
+    .pipe(gulp.dest(paths.dist + '/css'))       // put in dist
+    .pipe(g.minifyCss(minifyOpts))              // minify the build
+    .pipe(g.rename('radiant.min.css'))          // rename
+    .pipe(gulp.dest(paths.dist + '/css'))       // put that in dist also
+}
 
 gulp.task('build-cached-less', function() {
-  return gulp.src(_.union(
-    paths.lessFiles,
+  return buildLess({
+    cached: true,
+    src: [
+      ...paths.lessFiles,
 
-    // .variables and .overrides are replaced with their corresponding .less
-    //  definition file during build. We add them so they are watched and
-    // trigger rebuilds of their corresponding less files.
-    paths.componentVariables,
-    paths.componentOverrides
-  ))
-    .pipe(g.plumber())              // don't kill watchers on error
-    .pipe(g.cached('less'))         // only pass files changed since last build
-    .pipe(getSemanticLessFile())    // for *.variables/overrides use the *.less
-    .pipe(g.less())                 // compile to css
-    .pipe(g.remember('less'))       // add back files that didn't change
-    .pipe(g.concat('radiant.css'))       // concat all css files
-    .pipe(g.less())                 // move font @imports to the top
-    .pipe(g.autoprefixer())         // autoprefix for browser support
-    .pipe(gulp.dest(paths.dist + '/css'))    // put in dist
-    .pipe(g.minifyCss(minifyOpts))  // minify the build
-    .pipe(g.rename('radiant.min.css'))   // rename
-    .pipe(gulp.dest(paths.dist + '/css'));   // put that in dist also
-});
+      // .variables and .overrides are replaced with their corresponding .less
+      //  definition file during build. We add them so they are watched and
+      // trigger rebuilds of their corresponding less files.
+      ...paths.componentVariables,
+      ...paths.componentOverrides,
+    ],
+  })
+})
 
 gulp.task('build-all-less', function(cb) {
-  g.util.log(g.util.colors.yellow('rebuilding all less'));
+  g.util.log(g.util.colors.yellow('rebuilding all less'))
 
-  return gulp.src(paths.lessFiles)
-    .pipe(g.plumber())
-    .pipe(g.less())
-    .pipe(g.autoprefixer())
-    .pipe(g.concat('radiant.css'))
-    .pipe(gulp.dest(paths.dist))
-    .pipe(g.minifyCss(minifyOpts))
-    .pipe(g.rename('radiant.min.css'))
-    .pipe(gulp.dest(paths.dist));
-});
+  return buildLess({
+    cached: false,
+    src: paths.lessFiles,
+  })
+})

@@ -8,4 +8,4 @@ module.exports = {
   afterPrintCallback: function() {  // run after the default help task runs
 
   }
-};
+}
