@@ -1,10 +1,281 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-  <!-- Redirect hack to the /docs -->
-  <meta http-equiv="refresh" content="0; url=docs/dist/index.html"/>
+  <meta charset="UTF-8">
+  <title>Radiant Style Guide</title>
+  <link rel="stylesheet" type="text/css" href="css/radiant.min.css">
+  <link rel="stylesheet" type="text/css" href="doc-overrides.css">
 </head>
-<body>
-
+<body class="style guide">
+  <div class="ui inverted blue menu">
+    <div class="header item">
+      <i class="sun icon"></i> Radiant
+    </div>
+    <div class="right menu">
+      <div class="header item">
+        Design Elements
+      </div>
+    </div>
+  </div>
+  <div class="ui stackable two column grid horizontally padded">
+    <div class="four wide column">
+      <div class="ui secondary vertical following fluid accordion menu">
+        <div class="item active">
+          <a class="active title"><b>Design Elements</b></a>
+          <div class="active content menu">
+            <a class="item active" href="#palette">Color Palette</a>
+            <a class="item transition visible" href="#typography">Typography</a>
+            <a class="item transition visible" href="#grid">Grid</a>
+            <a class="item transition visible" href="#ui-elements">UI Elements</a>
+            <a class="item transition visible" href="#tables">Tables</a>
+            <a class="item transition visible" href="#dropdowns">Dropdowns</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="twelve wide column">
+      <div class="ui segment">
+        <div id="palette" class="ui vertical segment">
+          <h1 class="ui dividing header">Color Palette</h1>
+          <h3>Brand Colors</h3>
+          <div class="ui primary button">
+            @primaryColor
+          </div>
+          <div class="ui secondary button">
+            @secondaryColor
+          </div>
+          <div class="ui divider"></div>
+          <h3>Primary Palette</h3>
+          <div class="ui stackable padded five column grid">
+            <div class="row">
+              <div class="blue center aligned column">
+                <pre>@blue</pre>
+              </div>
+              <div class="light blue center aligned column">
+                <pre>@lightBlue</pre>
+              </div>
+              <div class="dark grey center aligned column">
+                <pre>@darkGrey</pre>
+              </div>
+              <div class="grey center aligned column">
+                <pre>@grey</pre>
+              </div>
+              <div class="center aligned column">
+                <pre>@white</pre>
+              </div>
+            </div>
+          </div>
+          <h3>Status Palette</h3>
+          <div class="ui stackable padded five column grid">
+            <div class="row">
+              <div class="green center aligned column">
+                <pre>@green</pre>
+              </div>
+              <div class="red center aligned column">
+                <pre>@red</pre>
+              </div>
+              <div class="orange center aligned column">
+                <pre>@orange</pre>
+              </div>
+            </div>
+          </div>
+          <h3>Secondary Palette</h3>
+          <div class="ui stackable padded five column grid">
+            <div class="row">
+              <div class="teal center aligned column">
+                <pre>@teal</pre>
+              </div>
+              <div class="pink active header center aligned column">
+                <pre>@pink</pre>
+              </div>
+              <div class="purple center aligned column">
+                <pre>@purple</pre>
+              </div>
+              <div class="yellow center aligned column">
+                <pre>@yellow</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui segment">
+        <div id="typography" class="ui vertical segment">
+          <h1 class="ui dividing header">Typography</h1>
+          <h1>h1 - We are an impossibility in an impossible universe.</h1>
+          <h2>h2 - We are an impossibility in an impossible universe.</h2>
+          <h3>h3 - We are an impossibility in an impossible universe.</h3>
+          <h4>h4 - We are an impossibility in an impossible universe.</h4>
+          <h5>h5 - We are an impossibility in an impossible universe.</h5>
+          <h6>h6 - We are an impossibility in an impossible universe.</h6>
+          <h2>Base Copy</h2>
+          <p>The stars we are given. The constellations we make. That is to say, stars exist in the cosmos, but
+            constellations are the imaginary lines we draw between them, the readings we give the sky, the stories we
+            tell.</p>
+          <p>― Rebecca Solnit</p>
+        </div>
+      </div>
+      <div class="ui segment">
+        <div id="grid" class="ui vertical segment">
+          <h1 class="ui dividing header">Grid</h1>
+          <h3>Column Padding</h3>
+          <p>"ui four column padded grid"</p>
+          <div class="ui four column padded grid">
+            <div class="center aligned column">
+              <div class="ui segment">center aligned column</div>
+            </div>
+            <div class="center aligned column">
+              <div class="ui segment">center aligned column</div>
+            </div>
+            <div class="center aligned column">
+              <div class="ui segment">center aligned column</div>
+            </div>
+            <div class="center aligned column">
+              <div class="ui segment">center aligned column</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui segment">
+        <div id="ui-elements" class="ui vertical segment">
+          <h1 class="ui dividing header">UI Elements</h1>
+          <div class="ui toggle checkbox">
+            <input type="checkbox" name="checkbox">
+            <label>Example checkbox - toggle me!</label>
+          </div>
+        </div>
+      </div>
+      <div class="ui segment">
+        <div id="dropdowns" class="ui vertical segment">
+        <h1 class="ui dividing header">Dropdowns</h1>
+          <!-- Extra margin bottom to prevent the menu from overlaying the next section -->
+          <div class="ui selection dropdown active visible" tabindex="0" style="margin-bottom: 8em;">
+            <i class="dropdown icon"></i>
+            <div class="default text">Favorite Fruit</div>
+            <div class="menu transition visible" tabindex="-1" style="display: block !important;">
+              <div class="item" data-value="apples">Apples</div>
+              <div class="item" data-value="oranges">Oranges</div>
+              <div class="item" data-value="bananas">Bananas</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui segment">
+        <div id="tables" class="ui vertical segment">
+          <h1 class="ui dividing header">Tables</h1>
+          <h2>Small Compact Table</h2>
+          <table class="ui small very compact table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Francine</td>
+                <td>Approved</td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td>Arthur</td>
+                <td>Approved</td>
+                <td>Please follow up</td>
+              </tr>
+              <tr>
+                <td>Ervaline</td>
+                <td>Approved</td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td>Edgar</td>
+                <td>Approved</td>
+                <td>Has an outstanding balance</td>
+              </tr>
+              <tr>
+                <td>Maximus</td>
+                <td>Approved</td>
+                <td>None</td>
+              </tr>
+            </tbody>
+          </table>
+          <h2>Selectable Row</h2>
+          <table class="ui selectable table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Francine</td>
+                <td>Approved</td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td>Arthur</td>
+                <td>Approved</td>
+                <td>Please follow up</td>
+              </tr>
+              <tr>
+                <td>Ervaline</td>
+                <td>Approved</td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td>Edgar</td>
+                <td>Approved</td>
+                <td>Has an outstanding balance</td>
+              </tr>
+              <tr>
+                <td>Maximus</td>
+                <td>Approved</td>
+                <td>None</td>
+              </tr>
+            </tbody>
+          </table>
+          <h2>Selectable Cell</h2>
+          <table class="ui table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Francine</td>
+                <td>None</td>
+                <td class="selectable"><a href>Approve</a></td>
+              </tr>
+              <tr>
+                <td>Arthur</td>
+                <td>Please follow up</td>
+                <td class="selectable"><a href="">Approve</a></td>
+              </tr>
+              <tr>
+                <td>Ervaline</td>
+                <td>None</td>
+                <td class="selectable"><a href="">Approve</a></td>
+              </tr>
+              <tr>
+                <td>Edgar</td>
+                <td>Has an outstanding balance</td>
+                <td class="selectable"><a href="">Approve</a></td>
+              </tr>
+              <tr>
+                <td>Maximus</td>
+                <td>None</td>
+                <td class="selectable"><a href="">Approve</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

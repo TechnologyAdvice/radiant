@@ -1,7 +1,0 @@
-.idea
-.DS_STORE
-node_modules/
-bower_components/
-*.log*
-.awspublish*
-.ruby-version
