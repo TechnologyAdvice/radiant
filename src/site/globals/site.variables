@@ -88,7 +88,7 @@
 --------------------*/
 
 @linkColor           : @blue;
-@linkUnderline       : underline;
+@linkUnderline       : none;
 @linkHoverColor      : darken(@linkColor, 10);
 
 /*-------------------
