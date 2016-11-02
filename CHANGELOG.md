@@ -1,5 +1,16 @@
 # Change Log
 
+## [v1.0.2](https://github.com/TechnologyAdvice/radiant/tree/v1.0.2) (2016-11-02)
+[Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.1...v1.0.2)
+
+**Fixed bugs:**
+
+- Dropdown "search" menu min width [\#21](https://github.com/TechnologyAdvice/radiant/issues/21)
+
+**Merged pull requests:**
+
+- fix\(Styles\): fix calculations for attached class [\#27](https://github.com/TechnologyAdvice/radiant/pull/27) ([kyleturco](https://github.com/kyleturco))
+
 ## [v1.0.1](https://github.com/TechnologyAdvice/radiant/tree/v1.0.1) (2016-10-26)
 [Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.0...v1.0.1)
 
