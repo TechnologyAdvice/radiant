@@ -9779,8 +9779,8 @@ Floated Menu / Item
   bottom: 0px;
   border-radius: 0px;
   margin: 0em -1px;
-  width: calc(102%);
-  max-width: calc(102%);
+  width: calc(100% + 2px);
+  max-width: calc(100% + 2px);
   box-shadow: none;
 }
 .ui.attached + .ui.attached.menu:not(.top) {
@@ -12232,8 +12232,8 @@ Floated Menu / Item
   bottom: 0px;
   border-radius: 0px;
   margin: 0em -1px;
-  width: calc(102%);
-  max-width: calc(102%);
+  width: calc(100% + 2px);
+  max-width: calc(100% + 2px);
   box-shadow: none;
   border: 1px solid #D4D4D5;
 }
@@ -34932,8 +34932,8 @@ ol.ui.horizontal.list li:before,
   bottom: 0px;
   border-radius: 0px;
   margin: 0em -1px;
-  width: calc(102%);
-  max-width: calc(102%);
+  width: calc(100% + 2px);
+  max-width: calc(100% + 2px);
   box-shadow: none;
   border: 1px solid #D4D4D5;
 }
@@ -36155,9 +36155,9 @@ ol.ui.horizontal.list li:before,
 ---------------*/
 /* Top */
 .ui.attached.steps {
-  width: calc(102%) !important;
+  width: calc(100% + 2px) !important;
   margin: 0em -1px 0;
-  max-width: calc(102%);
+  max-width: calc(100% + 2px);
   border-radius: 0 0 0em 0em;
 }
 .ui.attached.steps .step:first-child {
