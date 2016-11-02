@@ -1,6 +1,6 @@
 {
   "name": "@technologyadvice/radiant",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Semantic UI theme for internal TechnolgoyAdvice apps.",
   "main": "dist/css/radiant.css",
   "files": [
