@@ -25,6 +25,7 @@
           <div class="active content menu">
             <a class="item active" href="#palette">Color Palette</a>
             <a class="item transition visible" href="#typography">Typography</a>
+            <a class="item transition visible" href="#divider">Divider</a>
             <a class="item transition visible" href="#grid">Grid</a>
             <a class="item transition visible" href="#ui-elements">UI Elements</a>
             <a class="item transition visible" href="#tables">Tables</a>
@@ -36,7 +37,7 @@
     </div>
     <div class="twelve wide column">
       <div class="ui segment">
-        <div id="palette" class="ui vertical segment">
+        <div id="palette">
           <h1 class="ui dividing header">Color Palette</h1>
           <h3>Brand Colors</h3>
           <div class="ui primary button">
@@ -100,7 +101,7 @@
         </div>
       </div>
       <div class="ui segment">
-        <div id="typography" class="ui vertical segment">
+        <div id="typography">
           <h1 class="ui dividing header">Typography</h1>
           <h1>h1 - We are an impossibility in an impossible universe.</h1>
           <h2>h2 - We are an impossibility in an impossible universe.</h2>
@@ -116,7 +117,57 @@
         </div>
       </div>
       <div class="ui segment">
-        <div id="grid" class="ui vertical segment">
+        <div id="divider">
+          <h1 class="ui dividing header">Divider</h1>
+          <h3>Horizontal</h3>
+
+          <div class="ui padded segment">
+            <button class="ui fluid primary button">Login</button>
+            <div class="ui horizontal divider">Or</div>
+            <button class="ui fluid secondary button">Sign Up Now</button>
+          </div>
+
+          <h3>Vertical</h3>
+
+          <div class="ui padded segment">
+            <div class="ui equal width very relaxed stackable grid">
+              <div class="column">
+                <div class="ui form">
+                  <div class="field">
+                    <label>Username</label>
+                    <div class="ui left icon input">
+                      <input type="text" placeholder="Username">
+                      <i class="user icon"></i>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label>Password</label>
+                    <div class="ui left icon input">
+                      <input type="password">
+                      <i class="lock icon"></i>
+                    </div>
+                  </div>
+                  <div class="ui blue submit button">Login</div>
+                </div>
+              </div>
+              <div class="one wide center aligned column">
+                <div class="ui vertical divider">
+                  Or
+                </div>
+              </div>
+              <div class="middle aligned center aligned column">
+                <div class="ui big green labeled icon button">
+                  <i class="signup icon"></i>
+                  Sign Up
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="ui segment">
+        <div id="grid">
           <h1 class="ui dividing header">Grid</h1>
           <h3>Column Padding</h3>
           <p>"ui four column padded grid"</p>
@@ -137,7 +188,7 @@
         </div>
       </div>
       <div class="ui segment">
-        <div id="ui-elements" class="ui vertical segment">
+        <div id="ui-elements">
           <h1 class="ui dividing header">UI Elements</h1>
           <div class="ui toggle checkbox">
             <input type="checkbox" name="checkbox">
@@ -146,8 +197,8 @@
         </div>
       </div>
       <div class="ui segment">
-        <div id="dropdowns" class="ui vertical segment">
-        <h1 class="ui dividing header">Dropdowns</h1>
+        <div id="dropdowns">
+          <h1 class="ui dividing header">Dropdowns</h1>
           <!-- Extra margin bottom to prevent the menu from overlaying the next section -->
           <div class="ui selection dropdown active visible" tabindex="0" style="margin-bottom: 8em;">
             <i class="dropdown icon"></i>
@@ -161,7 +212,7 @@
         </div>
       </div>
       <div class="ui segment">
-        <div id="tables" class="ui vertical segment">
+        <div id="tables">
           <h1 class="ui dividing header">Tables</h1>
           <h2>Small Compact Table</h2>
           <table class="ui small very compact table">
