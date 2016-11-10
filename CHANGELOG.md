@@ -1,5 +1,22 @@
 # Change Log
 
+## [Unreleased](https://github.com/TechnologyAdvice/radiant/tree/HEAD)
+
+[Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.2...HEAD)
+
+**Closed issues:**
+
+- All `attached` variables which use `calc` need fixed [\#23](https://github.com/TechnologyAdvice/radiant/issues/23)
+- large monitor break point should be 1400px [\#14](https://github.com/TechnologyAdvice/radiant/issues/14)
+
+**Merged pull requests:**
+
+- fix\(build\): do not double parse less [\#30](https://github.com/TechnologyAdvice/radiant/pull/30) ([levithomason](https://github.com/levithomason))
+- gulp-if@2.0.2 untested ⚠️ [\#29](https://github.com/TechnologyAdvice/radiant/pull/29) ([deweybot](https://github.com/deweybot))
+- gulp-less@3.2.0 untested ⚠️ [\#28](https://github.com/TechnologyAdvice/radiant/pull/28) ([deweybot](https://github.com/deweybot))
+- lodash@4.16.6 untested ⚠️ [\#26](https://github.com/TechnologyAdvice/radiant/pull/26) ([deweybot](https://github.com/deweybot))
+- gulp-load-plugins@1.4.0 untested ⚠️ [\#25](https://github.com/TechnologyAdvice/radiant/pull/25) ([deweybot](https://github.com/deweybot))
+
 ## [v1.0.2](https://github.com/TechnologyAdvice/radiant/tree/v1.0.2) (2016-11-02)
 [Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.1...v1.0.2)
 
