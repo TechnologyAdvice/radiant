@@ -40,7 +40,6 @@ function buildLess({ src, cached }) {
     .pipe(g.less())                             // compile to css
     .pipe(g.if(cached, g.remember('less')))     // add back files that didn't change
     .pipe(g.concat('radiant.css'))              // concat all css files
-    .pipe(g.less())                             // move font @imports to the top
     .pipe(g.autoprefixer())                     // autoprefix for browser support
     .pipe(gulp.dest(paths.dist + '/css'))       // put in dist
     .pipe(g.minifyCss(minifyOpts))              // minify the build
