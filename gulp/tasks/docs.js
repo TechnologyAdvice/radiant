@@ -31,7 +31,7 @@ gulp.task('docs-less', function(cb) {
     .pipe(g.less())
     .pipe(g.autoprefixer())
     .pipe(g.remember('doc-less'))
-    .pipe(g.concat('doc-overrides.css'))
+    .pipe(g.concatCss('doc-overrides.css'))
     .pipe(gulp.dest(paths.docsDist))
 })
 
