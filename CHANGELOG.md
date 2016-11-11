@@ -1,5 +1,13 @@
 # Change Log
 
+## [Unreleased](https://github.com/TechnologyAdvice/radiant/tree/HEAD)
+
+[Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.3...HEAD)
+
+**Merged pull requests:**
+
+- gulp-less@3.3.0 untested ⚠️ [\#31](https://github.com/TechnologyAdvice/radiant/pull/31) ([deweybot](https://github.com/deweybot))
+
 ## [v1.0.3](https://github.com/TechnologyAdvice/radiant/tree/v1.0.3) (2016-11-10)
 [Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.2...v1.0.3)
 
