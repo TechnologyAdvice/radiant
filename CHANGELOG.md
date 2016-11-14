@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- lodash@4.17.0 untested ⚠️ [\#32](https://github.com/TechnologyAdvice/radiant/pull/32) ([deweybot](https://github.com/deweybot))
 - gulp-less@3.3.0 untested ⚠️ [\#31](https://github.com/TechnologyAdvice/radiant/pull/31) ([deweybot](https://github.com/deweybot))
 
 ## [v1.0.3](https://github.com/TechnologyAdvice/radiant/tree/v1.0.3) (2016-11-10)
