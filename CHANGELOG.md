@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- lodash@4.17.1 untested ⚠️ [\#33](https://github.com/TechnologyAdvice/radiant/pull/33) ([deweybot](https://github.com/deweybot))
 - lodash@4.17.0 untested ⚠️ [\#32](https://github.com/TechnologyAdvice/radiant/pull/32) ([deweybot](https://github.com/deweybot))
 - gulp-less@3.3.0 untested ⚠️ [\#31](https://github.com/TechnologyAdvice/radiant/pull/31) ([deweybot](https://github.com/deweybot))
 
