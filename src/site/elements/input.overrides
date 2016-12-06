@@ -9,7 +9,9 @@
 .ui.action.input > .buttons > .button {
   background-clip: padding-box;
   box-shadow: inset 0 0 0 2px #fff;
-  border: 1px solid @borderColor;
+  // match input @borderColor
+  // we need a solid color here, not a transparent color like @borderColor
+  border: 1px solid mix(rgb(34, 36, 38), #fff, 15);
 }
 
 /* Button on Right */
