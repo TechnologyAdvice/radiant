@@ -57,22 +57,62 @@
 --------------------*/
 
 /*---  Colors  ---*/
-@blue             : #4A96C4;
-@green            : #4CC17B;
-@grey             : #E3E4E5;
-@orange           : #DDA33C;
 @red              : #D85248;
+@orange           : #DDA33C;
 @yellow           : #DBC827;
+@olive            : #B5CC18;
+@green            : #42B871;
+@teal             : #3EB0B0;
+@blue             : #4A96C4;
+@violet           : #664FBD;
+@purple           : #A146B8;
+@pink             : #D14F97;
+@brown            : #A16E50;
+@grey             : #767676;
+@black            : #1B1C1D;
 
 /*---  Light Colors  ---*/
-@lightBlue        : #66BBDD;
+@lightRed         : saturate(lighten(@red, 11), 13);
+@lightOrange      : saturate(lighten(@orange, 11), 13);
+@lightYellow      : saturate(lighten(@yellow, 11), 13);
+@lightOlive       : saturate(lighten(@olive, 11), 13);
+@lightGreen       : saturate(lighten(@green, 11), 13);
+@lightTeal        : saturate(lighten(@teal, 11), 13);
+@lightBlue        : saturate(lighten(@blue, 11), 13);
+@lightViolet      : saturate(lighten(@violet, 11), 13);
+@lightPurple      : saturate(lighten(@purple, 11), 13);
+@lightPink        : saturate(lighten(@pink, 11), 13);
+@lightBrown       : saturate(lighten(@brown, 11), 13);
+@lightGrey        : lighten(@grey, 11);
+@lightBlack       : lighten(@black, 11);
 
 /*---   Neutrals  ---*/
-@darkGrey         : #444444;
+@fullBlack        : #000000;
+@offWhite         : #F9FAFB;
+@darkWhite        : #F3F4F5;
+@midWhite         : #DCDDDE;
+@white            : #FFFFFF;
 
-/*---   Typography  ---*/
-@headerFontColor  : #282828;
-@bodyFontColor    : #444444;
+/*--- Colored Backgrounds ---*/
+@redBackground         : saturate(tint(@red, 92), 15);
+@orangeBackground      : saturate(tint(@orange, 92), 15);
+@yellowBackground      : saturate(tint(@yellow, 92), 15);
+@oliveBackground       : saturate(tint(@olive, 92), 15);
+@greenBackground       : saturate(tint(@green, 92), 15);
+@tealBackground        : saturate(tint(@teal, 92), 15);
+@blueBackground        : saturate(tint(@blue, 92), 15);
+@violetBackground      : saturate(tint(@violet, 92), 15);
+@purpleBackground      : saturate(tint(@purple, 92), 15);
+@pinkBackground        : saturate(tint(@pink, 92), 15);
+@brownBackground       : saturate(tint(@brown, 92), 15);
+
+/*--------------
+      Page
+---------------*/
+
+@pageBackground   : @darkWhite;
+@lineHeight       : 1.45;
+@textColor        : #444444;
 
 /*-------------------
     Brand Colors
@@ -81,7 +121,8 @@
 @primaryColor        : @blue;
 @secondaryColor      : @grey;
 
-@lightSecondaryColor : @white;
+@lightPrimaryColor   : @lightBlue;
+@lightSecondaryColor : @lightGrey;
 
 /*-------------------
        Links
@@ -94,28 +135,19 @@
 /*-------------------
         Hover
 --------------------*/
+// we use a lighter secondaryColor, darken() its states like the rest of the computed colors
+@secondaryColorHover  : saturate(darken(@secondaryColor, 5), 10, relative);
+@secondaryColorFocus  : saturate(darken(@secondaryColor, 8), 20, relative);
+@secondaryColorDown  : darken(@secondaryColor, 10);
+@secondaryColorActive  : saturate(darken(@secondaryColor, 5), 15, relative);
 
-/*---  Colors  ---*/
-@primaryColorHover    : darken(@primaryColor, 10%);
-@secondaryColorHover  : darken(@secondaryColor, 10%);
+/*--------------
+   Form Input
+---------------*/
 
-@blueHover            : darken(@blue, 10%);
-@greenHover           : darken(@green, 10%);
-@orangeHover          : darken(@orange, 10%);
-@pinkHover            : darken(@pink, 10%);
-@purpleHover          : darken(@purple, 10%);
-@redHover             : darken(@red, 10%);
-@tealHover            : darken(@teal, 10%);
-@yellowHover          : darken(@yellow, 10%);
-
-@lightBlueHover       : darken(@lightBlue, 10%);
-@lightGreenHover      : darken(@lightGreen, 10%);
-@lightOrangeHover     : darken(@lightOrange, 10%);
-@lightPinkHover       : darken(@lightPink, 10%);
-@lightPurpleHover     : darken(@lightPurple, 10%);
-@lightRedHover        : darken(@lightRed, 10%);
-@lightTealHover       : darken(@lightTeal, 10%);
-@lightYellowHover     : darken(@lightYellow, 10%);
+/* Input Text Color */
+@inputPlaceholderColor: lighten(@inputColor, 55);
+@inputPlaceholderFocusColor: lighten(@inputColor, 40);
 
 /*-------------------
        Accents
