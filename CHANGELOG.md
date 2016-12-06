@@ -1,8 +1,7 @@
 # Change Log
 
-## [Unreleased](https://github.com/TechnologyAdvice/radiant/tree/HEAD)
-
-[Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.3...HEAD)
+## [v1.0.4](https://github.com/TechnologyAdvice/radiant/tree/v1.0.4) (2016-12-06)
+[Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.3...v1.0.4)
 
 **Merged pull requests:**
 
