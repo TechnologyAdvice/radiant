@@ -37519,7 +37519,7 @@ img.ui.bordered.image {
 .ui.action.input > .buttons > .button {
   background-clip: padding-box;
   box-shadow: inset 0 0 0 2px #fff;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: 1px solid #dedede;
 }
 
 /* Button on Right */
