@@ -1,3 +1,29 @@
 /*******************************
          Site Overrides
 *******************************/
+/*--------------------
+        Action
+---------------------*/
+
+.ui.action.input > .button,
+.ui.action.input > .buttons > .button {
+  background-clip: padding-box;
+  box-shadow: inset 0 0 0 2px #fff;
+  border: 1px solid @borderColor;
+}
+
+/* Button on Right */
+.ui.action.input:not([class*="left action"]) > .button:not(:first-child),
+.ui.action.input:not([class*="left action"]) > .buttons:not(:first-child) > .button {
+  border-left: none;
+}
+
+/* Button on Left */
+.ui[class*="left action"].input > .button,
+.ui[class*="left action"].input > .buttons > .button {
+  border-right: none;
+}
+.ui[class*="left action"].input > .button:not(:first-child),
+.ui[class*="left action"].input > .buttons > .button:not(:first-child) {
+  border-left: none;
+}
