@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.0.6](https://github.com/TechnologyAdvice/radiant/tree/v1.0.6) (2016-12-06)
+[Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.5...v1.0.6)
+
+**Merged pull requests:**
+
+- feat\(dropdown\): remove label shadow [\#40](https://github.com/TechnologyAdvice/radiant/pull/40) ([levithomason](https://github.com/levithomason))
+
 ## [v1.0.5](https://github.com/TechnologyAdvice/radiant/tree/v1.0.5) (2016-12-06)
 [Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.4...v1.0.5)
 
