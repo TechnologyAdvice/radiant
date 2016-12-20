@@ -26,4 +26,5 @@ deployment:
 
       # s3 sync
       - echo "...syncing with s3"
-      - ta-script aws/s3_sync -d ./dist -b ta-radiant-assets/$(json -f package.json version)
+      - npm run build
+      - ta-script aws/s3_sync -d ./dist -b cdn.taplatform.net/radiant/$(json -f package.json version)
