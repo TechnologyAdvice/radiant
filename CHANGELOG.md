@@ -1,5 +1,16 @@
 # Change Log
 
+## [Unreleased](https://github.com/TechnologyAdvice/radiant/tree/HEAD)
+
+[Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.6...HEAD)
+
+**Merged pull requests:**
+
+- chore\(package\): deploy to cdn.taplatform.net [\#41](https://github.com/TechnologyAdvice/radiant/pull/41) ([levithomason](https://github.com/levithomason))
+- through2@2.0.3 untested ⚠️ [\#38](https://github.com/TechnologyAdvice/radiant/pull/38) ([deweybot](https://github.com/deweybot))
+- Update gh-pages to version 0.12.0 🚀 [\#35](https://github.com/TechnologyAdvice/radiant/pull/35) ([deweybot](https://github.com/deweybot))
+- lodash@4.17.2 untested ⚠️ [\#34](https://github.com/TechnologyAdvice/radiant/pull/34) ([deweybot](https://github.com/deweybot))
+
 ## [v1.0.6](https://github.com/TechnologyAdvice/radiant/tree/v1.0.6) (2016-12-06)
 [Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.5...v1.0.6)
 
