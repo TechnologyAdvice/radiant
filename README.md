@@ -1,4 +1,5 @@
 # [Radiant](http://technologyadvice.github.io/radiant/)
+[![Circle CI](https://img.shields.io/circleci/token/70267ce4ea6c3511e3ae7f82b9acaf075e4d2e7c/project/TechnologyAdvice/radiant/master.svg?style=flat-square)](https://circleci.com/gh/TechnologyAdvice/radiant/tree/master)
 
 Semantic UI theme for internal TechnolgoyAdvice apps.
 
