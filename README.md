@@ -6,14 +6,14 @@ Semantic UI theme for internal TechnolgoyAdvice apps.
 
 **NPM**
 
-```bash
+```
 npm i @technologyadvice/radiant -S
 ```
 
 **CDN**
 
-```bash
-d6xw8h2ajn62r.cloudfront.net/x.x.x/css/radiant.min.css
+```
+cdn.taplatform.net/radiant/x.x.x/css/radiant.min.css
 ```
 
 ## Usage
