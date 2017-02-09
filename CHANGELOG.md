@@ -1,11 +1,11 @@
 # Change Log
 
-## [Unreleased](https://github.com/TechnologyAdvice/radiant/tree/HEAD)
-
-[Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.6...HEAD)
+## [v1.0.7](https://github.com/TechnologyAdvice/radiant/tree/v1.0.7) (2017-02-09)
+[Full Changelog](https://github.com/TechnologyAdvice/radiant/compare/v1.0.6...v1.0.7)
 
 **Merged pull requests:**
 
+- feat\(checkbox\): restore blue toggle color [\#43](https://github.com/TechnologyAdvice/radiant/pull/43) ([levithomason](https://github.com/levithomason))
 - chore\(package\): deploy to cdn.taplatform.net [\#41](https://github.com/TechnologyAdvice/radiant/pull/41) ([levithomason](https://github.com/levithomason))
 - through2@2.0.3 untested ⚠️ [\#38](https://github.com/TechnologyAdvice/radiant/pull/38) ([deweybot](https://github.com/deweybot))
 - Update gh-pages to version 0.12.0 🚀 [\#35](https://github.com/TechnologyAdvice/radiant/pull/35) ([deweybot](https://github.com/deweybot))
