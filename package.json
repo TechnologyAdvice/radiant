@@ -43,7 +43,7 @@
     "gulp-cached": "^1.1.0",
     "gulp-concat-css": "^2.3.0",
     "gulp-debug": "^2.1.2",
-    "gulp-git": "^1.2.4",
+    "gulp-git": "^1.14.1",
     "gulp-help": "^1.6.0",
     "gulp-if": "^2.0.2",
     "gulp-less": "^3.3.0",
