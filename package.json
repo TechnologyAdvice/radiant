@@ -53,7 +53,7 @@
     "gulp-plumber": "^1.1.0",
     "gulp-remember": "^0.3.0",
     "gulp-rename": "^1.2.2",
-    "gulp-shell": "^0.5.2",
+    "gulp-shell": "^0.6.1",
     "gulp-util": "^3.0.5",
     "gulp-webserver": "^0.9.1",
     "json": "^9.0.3",
