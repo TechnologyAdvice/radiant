@@ -3,6 +3,9 @@
 
 Semantic UI theme for internal TechnolgoyAdvice apps.
 
+## Important Note
+Radiant has not been actively used or maintained since the spring of 2017. It is still the style theme in a few screens of the Unity application, but isn't otherwise relevant.
+
 ## Install
 
 **NPM**
